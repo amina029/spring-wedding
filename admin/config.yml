@@ -1,18 +1,11 @@
 # Decap CMS 配置（SPRING 作品集）
 # 文档：https://decapcms.org/docs/
 #
-# 两种后台登录方式（二选一）：
-#   A. GitHub 登录（默认，下方已启用）：用户需有 GitHub 账号，首次登录授权即可。
-#   B. Netlify Identity 登录（免 GitHub OAuth，邮箱密码）：
-#      把 backend 换成：
-#        backend:
-#          name: git-gateway
-#          branch: main
-#      然后在 Netlify 后台开启 Identity + Git Gateway。
+# 后台登录方式：Netlify Identity（邮箱密码，免 GitHub OAuth）
+# 已启用下方 git-gateway。需到 Netlify 后台开启 Identity + Git Gateway。
 
 backend:
-  name: github
-  repo: amina029/spring-wedding              # GitHub 用户名/仓库名（已确认）
+  name: git-gateway
   branch: main
 
 # 媒体库（本站媒体直接在 JSON 里用路径填写，未启用可视化选图，避免大仓库卡顿）
