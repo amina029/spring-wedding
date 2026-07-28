@@ -1,0 +1,40 @@
+{
+  "slug": "pink-castle",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Pink Castle",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Pink Castle is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Pink · Castle · Dream",
+  "cover": "/media/projects/pink-castle/gallery-01.png",
+  "film": null,
+  "gallery": [
+    {
+      "gc": 2,
+      "count": 2,
+      "items": [
+        {
+          "src": "/media/projects/pink-castle/gallery-01.png",
+          "alt": "Pink Castle gallery 01",
+          "caption": [
+            "Pink Castle",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/pink-castle/gallery-02.png",
+          "alt": "Pink Castle gallery 02",
+          "caption": [
+            "Pink Castle",
+            "02"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 28",
+    "cover": "/media/projects/pink-barbie/gallery-01.png"
+  }
+}

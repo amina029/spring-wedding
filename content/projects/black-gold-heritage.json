@@ -1,0 +1,87 @@
+{
+  "slug": "black-gold-heritage",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Black Gold Heritage",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Black Gold Heritage is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Black · Gold · Heritage",
+  "cover": "/media/projects/black-gold-heritage/gallery-01.jpg",
+  "film": {
+    "src": "/media/projects/black-gold-heritage/film.mp4",
+    "poster": "/media/projects/black-gold-heritage/gallery-01.jpg"
+  },
+  "gallery": [
+    {
+      "gc": 2,
+      "count": 2,
+      "items": [
+        {
+          "src": "/media/projects/black-gold-heritage/gallery-01.jpg",
+          "alt": "Black Gold Heritage gallery 01",
+          "caption": [
+            "Black Gold Heritage",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/black-gold-heritage/gallery-02.jpg",
+          "alt": "Black Gold Heritage gallery 02",
+          "caption": [
+            "Black Gold Heritage",
+            "02"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/black-gold-heritage/gallery-03.jpg",
+          "alt": "Black Gold Heritage gallery 03",
+          "caption": [
+            "Black Gold Heritage",
+            "03"
+          ]
+        },
+        {
+          "src": "/media/projects/black-gold-heritage/gallery-04.jpg",
+          "alt": "Black Gold Heritage gallery 04",
+          "caption": [
+            "Black Gold Heritage",
+            "04"
+          ]
+        },
+        {
+          "src": "/media/projects/black-gold-heritage/gallery-05.jpg",
+          "alt": "Black Gold Heritage gallery 05",
+          "caption": [
+            "Black Gold Heritage",
+            "05"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/black-gold-heritage/gallery-06.jpg",
+          "alt": "Black Gold Heritage gallery 06",
+          "caption": [
+            "Black Gold Heritage",
+            "06"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 01",
+    "cover": "/media/projects/silver-tides/cover.webp"
+  }
+}

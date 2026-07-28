@@ -1,0 +1,119 @@
+{
+  "slug": "starry-blue-reverie",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Starry Blue Reverie",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Starry Blue Reverie is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Fresh · Starry · Blue",
+  "cover": "/media/projects/starry-blue-reverie/gallery-01.png",
+  "film": {
+    "src": "/media/projects/starry-blue-reverie/film.mp4",
+    "poster": "/media/projects/starry-blue-reverie/gallery-01.png"
+  },
+  "gallery": [
+    {
+      "gc": 2,
+      "count": 2,
+      "items": [
+        {
+          "src": "/media/projects/starry-blue-reverie/gallery-01.png",
+          "alt": "Starry Blue Reverie gallery 01",
+          "caption": [
+            "Starry Blue Reverie",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/starry-blue-reverie/gallery-02.png",
+          "alt": "Starry Blue Reverie gallery 02",
+          "caption": [
+            "Starry Blue Reverie",
+            "02"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 7,
+      "items": [
+        {
+          "src": "/media/projects/starry-blue-reverie/gallery-03.png",
+          "alt": "Starry Blue Reverie gallery 03",
+          "caption": [
+            "Starry Blue Reverie",
+            "03"
+          ]
+        },
+        {
+          "src": "/media/projects/starry-blue-reverie/gallery-04.png",
+          "alt": "Starry Blue Reverie gallery 04",
+          "caption": [
+            "Starry Blue Reverie",
+            "04"
+          ]
+        },
+        {
+          "src": "/media/projects/starry-blue-reverie/gallery-05.png",
+          "alt": "Starry Blue Reverie gallery 05",
+          "caption": [
+            "Starry Blue Reverie",
+            "05"
+          ]
+        },
+        {
+          "src": "/media/projects/starry-blue-reverie/gallery-06.png",
+          "alt": "Starry Blue Reverie gallery 06",
+          "caption": [
+            "Starry Blue Reverie",
+            "06"
+          ]
+        },
+        {
+          "src": "/media/projects/starry-blue-reverie/gallery-07.png",
+          "alt": "Starry Blue Reverie gallery 07",
+          "caption": [
+            "Starry Blue Reverie",
+            "07"
+          ]
+        },
+        {
+          "src": "/media/projects/starry-blue-reverie/gallery-08.png",
+          "alt": "Starry Blue Reverie gallery 08",
+          "caption": [
+            "Starry Blue Reverie",
+            "08"
+          ]
+        },
+        {
+          "src": "/media/projects/starry-blue-reverie/gallery-09.png",
+          "alt": "Starry Blue Reverie gallery 09",
+          "caption": [
+            "Starry Blue Reverie",
+            "09"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/starry-blue-reverie/gallery-10.jpg",
+          "alt": "Starry Blue Reverie gallery 10",
+          "caption": [
+            "Starry Blue Reverie",
+            "10"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 24",
+    "cover": "/media/projects/white-green-korean/gallery-01.png"
+  }
+}

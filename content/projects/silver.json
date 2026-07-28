@@ -1,0 +1,48 @@
+{
+  "slug": "silver",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Silver",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Silver is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Silver · Metallic · Cool",
+  "cover": "/media/projects/silver/gallery-01.png",
+  "film": null,
+  "gallery": [
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/silver/gallery-01.png",
+          "alt": "Silver gallery 01",
+          "caption": [
+            "Silver",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/silver/gallery-02.png",
+          "alt": "Silver gallery 02",
+          "caption": [
+            "Silver",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/silver/gallery-03.png",
+          "alt": "Silver gallery 03",
+          "caption": [
+            "Silver",
+            "03"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 44",
+    "cover": "/media/projects/refined-luxury/gallery-01.png"
+  }
+}

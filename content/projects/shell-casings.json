@@ -1,0 +1,109 @@
+{
+  "slug": "shell-casings",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Shell Casings",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Shell Casings is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Shell · Metallic · Sculpture",
+  "cover": "/media/projects/shell-casings/gallery-01.jpg",
+  "film": {
+    "src": "/media/projects/shell-casings/film.mp4",
+    "poster": "/media/projects/shell-casings/gallery-01.jpg"
+  },
+  "gallery": [
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/shell-casings/gallery-01.jpg",
+          "alt": "Shell Casings gallery 01",
+          "caption": [
+            "Shell Casings",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/shell-casings/gallery-02.png",
+          "alt": "Shell Casings gallery 02",
+          "caption": [
+            "Shell Casings",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/shell-casings/gallery-03.png",
+          "alt": "Shell Casings gallery 03",
+          "caption": [
+            "Shell Casings",
+            "03"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 2,
+      "count": 2,
+      "items": [
+        {
+          "src": "/media/projects/shell-casings/gallery-04.png",
+          "alt": "Shell Casings gallery 04",
+          "caption": [
+            "Shell Casings",
+            "04"
+          ]
+        },
+        {
+          "src": "/media/projects/shell-casings/gallery-05.png",
+          "alt": "Shell Casings gallery 05",
+          "caption": [
+            "Shell Casings",
+            "05"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/shell-casings/gallery-06.png",
+          "alt": "Shell Casings gallery 06",
+          "caption": [
+            "Shell Casings",
+            "06"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 2,
+      "count": 2,
+      "items": [
+        {
+          "src": "/media/projects/shell-casings/gallery-07.png",
+          "alt": "Shell Casings gallery 07",
+          "caption": [
+            "Shell Casings",
+            "07"
+          ]
+        },
+        {
+          "src": "/media/projects/shell-casings/gallery-08.png",
+          "alt": "Shell Casings gallery 08",
+          "caption": [
+            "Shell Casings",
+            "08"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 05",
+    "cover": "/media/projects/mocha-drapery/gallery-01.png"
+  }
+}

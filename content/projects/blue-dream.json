@@ -1,0 +1,101 @@
+{
+  "slug": "blue-dream",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Blue Dream",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Blue Dream is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Blue · Dream · Ethereal",
+  "cover": "/media/projects/blue-dream/gallery-01.jpg",
+  "film": {
+    "src": "/media/projects/blue-dream/film.mp4",
+    "poster": "/media/projects/blue-dream/gallery-01.jpg"
+  },
+  "gallery": [
+    {
+      "gc": 2,
+      "count": 2,
+      "items": [
+        {
+          "src": "/media/projects/blue-dream/gallery-01.jpg",
+          "alt": "Blue Dream gallery 01",
+          "caption": [
+            "Blue Dream",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/blue-dream/gallery-02.jpg",
+          "alt": "Blue Dream gallery 02",
+          "caption": [
+            "Blue Dream",
+            "02"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/blue-dream/gallery-03.jpg",
+          "alt": "Blue Dream gallery 03",
+          "caption": [
+            "Blue Dream",
+            "03"
+          ]
+        },
+        {
+          "src": "/media/projects/blue-dream/gallery-04.jpg",
+          "alt": "Blue Dream gallery 04",
+          "caption": [
+            "Blue Dream",
+            "04"
+          ]
+        },
+        {
+          "src": "/media/projects/blue-dream/gallery-05.jpg",
+          "alt": "Blue Dream gallery 05",
+          "caption": [
+            "Blue Dream",
+            "05"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/blue-dream/gallery-06.jpg",
+          "alt": "Blue Dream gallery 06",
+          "caption": [
+            "Blue Dream",
+            "06"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/blue-dream/gallery-07.jpg",
+          "alt": "Blue Dream gallery 07",
+          "caption": [
+            "Blue Dream",
+            "07"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 40",
+    "cover": "/media/projects/butterfly-wings/gallery-01.png"
+  }
+}

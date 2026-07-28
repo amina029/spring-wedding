@@ -1,0 +1,87 @@
+{
+  "slug": "gilded-era",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Gilded Era",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Gilded Era is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Gilded · Era · Opulence",
+  "cover": "/media/projects/gilded-era/gallery-01.jpg",
+  "film": {
+    "src": "/media/projects/gilded-era/film.mp4",
+    "poster": "/media/projects/gilded-era/gallery-01.jpg"
+  },
+  "gallery": [
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/gilded-era/gallery-01.jpg",
+          "alt": "Gilded Era gallery 01",
+          "caption": [
+            "Gilded Era",
+            "01"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 2,
+      "count": 2,
+      "items": [
+        {
+          "src": "/media/projects/gilded-era/gallery-02.jpg",
+          "alt": "Gilded Era gallery 02",
+          "caption": [
+            "Gilded Era",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/gilded-era/gallery-03.jpg",
+          "alt": "Gilded Era gallery 03",
+          "caption": [
+            "Gilded Era",
+            "03"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/gilded-era/gallery-04.jpg",
+          "alt": "Gilded Era gallery 04",
+          "caption": [
+            "Gilded Era",
+            "04"
+          ]
+        },
+        {
+          "src": "/media/projects/gilded-era/gallery-05.jpg",
+          "alt": "Gilded Era gallery 05",
+          "caption": [
+            "Gilded Era",
+            "05"
+          ]
+        },
+        {
+          "src": "/media/projects/gilded-era/gallery-06.jpg",
+          "alt": "Gilded Era gallery 06",
+          "caption": [
+            "Gilded Era",
+            "06"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 43",
+    "cover": "/media/projects/silver/gallery-01.png"
+  }
+}

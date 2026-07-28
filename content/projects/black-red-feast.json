@@ -1,0 +1,140 @@
+{
+  "slug": "black-red-feast",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Black & Red Feast",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Black & Red Feast is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Black · Red · Feast",
+  "cover": "/media/projects/black-red-feast/gallery-01.jpg",
+  "film": null,
+  "gallery": [
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/black-red-feast/gallery-01.jpg",
+          "alt": "Black & Red Feast gallery 01",
+          "caption": [
+            "Black & Red Feast",
+            "01"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 4,
+      "items": [
+        {
+          "src": "/media/projects/black-red-feast/gallery-02.jpg",
+          "alt": "Black & Red Feast gallery 02",
+          "caption": [
+            "Black & Red Feast",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/black-red-feast/gallery-03.jpg",
+          "alt": "Black & Red Feast gallery 03",
+          "caption": [
+            "Black & Red Feast",
+            "03"
+          ]
+        },
+        {
+          "src": "/media/projects/black-red-feast/gallery-04.jpg",
+          "alt": "Black & Red Feast gallery 04",
+          "caption": [
+            "Black & Red Feast",
+            "04"
+          ]
+        },
+        {
+          "src": "/media/projects/black-red-feast/gallery-05.jpg",
+          "alt": "Black & Red Feast gallery 05",
+          "caption": [
+            "Black & Red Feast",
+            "05"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/black-red-feast/gallery-06.jpg",
+          "alt": "Black & Red Feast gallery 06",
+          "caption": [
+            "Black & Red Feast",
+            "06"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/black-red-feast/gallery-07.jpg",
+          "alt": "Black & Red Feast gallery 07",
+          "caption": [
+            "Black & Red Feast",
+            "07"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/black-red-feast/gallery-08.jpg",
+          "alt": "Black & Red Feast gallery 08",
+          "caption": [
+            "Black & Red Feast",
+            "08"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/black-red-feast/gallery-09.jpg",
+          "alt": "Black & Red Feast gallery 09",
+          "caption": [
+            "Black & Red Feast",
+            "09"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/black-red-feast/gallery-10.jpg",
+          "alt": "Black & Red Feast gallery 10",
+          "caption": [
+            "Black & Red Feast",
+            "10"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 53",
+    "cover": "/media/projects/black-gold-heritage/gallery-01.jpg"
+  }
+}

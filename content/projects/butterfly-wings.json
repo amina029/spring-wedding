@@ -1,0 +1,75 @@
+{
+  "slug": "butterfly-wings",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Butterfly Wings",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Butterfly Wings is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Butterfly · Wings · Delicate",
+  "cover": "/media/projects/butterfly-wings/gallery-01.png",
+  "film": {
+    "src": "/media/projects/butterfly-wings/film.mp4",
+    "poster": "/media/projects/butterfly-wings/gallery-01.png"
+  },
+  "gallery": [
+    {
+      "gc": 3,
+      "count": 6,
+      "items": [
+        {
+          "src": "/media/projects/butterfly-wings/gallery-01.png",
+          "alt": "Butterfly Wings gallery 01",
+          "caption": [
+            "Butterfly Wings",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/butterfly-wings/gallery-02.png",
+          "alt": "Butterfly Wings gallery 02",
+          "caption": [
+            "Butterfly Wings",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/butterfly-wings/gallery-03.png",
+          "alt": "Butterfly Wings gallery 03",
+          "caption": [
+            "Butterfly Wings",
+            "03"
+          ]
+        },
+        {
+          "src": "/media/projects/butterfly-wings/gallery-04.png",
+          "alt": "Butterfly Wings gallery 04",
+          "caption": [
+            "Butterfly Wings",
+            "04"
+          ]
+        },
+        {
+          "src": "/media/projects/butterfly-wings/gallery-05.png",
+          "alt": "Butterfly Wings gallery 05",
+          "caption": [
+            "Butterfly Wings",
+            "05"
+          ]
+        },
+        {
+          "src": "/media/projects/butterfly-wings/gallery-06.png",
+          "alt": "Butterfly Wings gallery 06",
+          "caption": [
+            "Butterfly Wings",
+            "06"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 41",
+    "cover": "/media/projects/gilded-song-dynasty/gallery-01.jpg"
+  }
+}

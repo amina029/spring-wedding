@@ -1,0 +1,139 @@
+{
+  "slug": "white-plume-gilt",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "White Plume & Gilt",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "White Plume & Gilt is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "White · Plume · Gilt",
+  "cover": "/media/projects/white-plume-gilt/gallery-01.jpg",
+  "film": {
+    "src": "/media/projects/white-plume-gilt/film.mp4",
+    "poster": "/media/projects/white-plume-gilt/gallery-01.jpg"
+  },
+  "gallery": [
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/white-plume-gilt/gallery-01.jpg",
+          "alt": "White Plume & Gilt gallery 01",
+          "caption": [
+            "White Plume & Gilt",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/white-plume-gilt/gallery-02.jpg",
+          "alt": "White Plume & Gilt gallery 02",
+          "caption": [
+            "White Plume & Gilt",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/white-plume-gilt/gallery-03.jpg",
+          "alt": "White Plume & Gilt gallery 03",
+          "caption": [
+            "White Plume & Gilt",
+            "03"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/white-plume-gilt/gallery-04.jpg",
+          "alt": "White Plume & Gilt gallery 04",
+          "caption": [
+            "White Plume & Gilt",
+            "04"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/white-plume-gilt/gallery-05.jpg",
+          "alt": "White Plume & Gilt gallery 05",
+          "caption": [
+            "White Plume & Gilt",
+            "05"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 5,
+      "items": [
+        {
+          "src": "/media/projects/white-plume-gilt/gallery-06.jpg",
+          "alt": "White Plume & Gilt gallery 06",
+          "caption": [
+            "White Plume & Gilt",
+            "06"
+          ]
+        },
+        {
+          "src": "/media/projects/white-plume-gilt/gallery-07.jpg",
+          "alt": "White Plume & Gilt gallery 07",
+          "caption": [
+            "White Plume & Gilt",
+            "07"
+          ]
+        },
+        {
+          "src": "/media/projects/white-plume-gilt/gallery-08.jpg",
+          "alt": "White Plume & Gilt gallery 08",
+          "caption": [
+            "White Plume & Gilt",
+            "08"
+          ]
+        },
+        {
+          "src": "/media/projects/white-plume-gilt/gallery-09.jpg",
+          "alt": "White Plume & Gilt gallery 09",
+          "caption": [
+            "White Plume & Gilt",
+            "09"
+          ]
+        },
+        {
+          "src": "/media/projects/white-plume-gilt/gallery-10.jpg",
+          "alt": "White Plume & Gilt gallery 10",
+          "caption": [
+            "White Plume & Gilt",
+            "10"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/white-plume-gilt/gallery-11.jpg",
+          "alt": "White Plume & Gilt gallery 11",
+          "caption": [
+            "White Plume & Gilt",
+            "11"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 26",
+    "cover": "/media/projects/simplicity/gallery-01.png"
+  }
+}

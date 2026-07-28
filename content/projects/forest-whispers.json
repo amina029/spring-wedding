@@ -1,0 +1,113 @@
+{
+  "slug": "forest-whispers",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Forest Whispers",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Forest Whispers is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Forest · Green · Whisper",
+  "cover": "/media/projects/forest-whispers/gallery-01.jpg",
+  "film": {
+    "src": "/media/projects/forest-whispers/film.mp4",
+    "poster": "/media/projects/forest-whispers/gallery-01.jpg"
+  },
+  "gallery": [
+    {
+      "gc": 3,
+      "count": 9,
+      "items": [
+        {
+          "src": "/media/projects/forest-whispers/gallery-01.jpg",
+          "alt": "Forest Whispers gallery 01",
+          "caption": [
+            "Forest Whispers",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/forest-whispers/gallery-02.jpg",
+          "alt": "Forest Whispers gallery 02",
+          "caption": [
+            "Forest Whispers",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/forest-whispers/gallery-03.jpg",
+          "alt": "Forest Whispers gallery 03",
+          "caption": [
+            "Forest Whispers",
+            "03"
+          ]
+        },
+        {
+          "src": "/media/projects/forest-whispers/gallery-04.jpg",
+          "alt": "Forest Whispers gallery 04",
+          "caption": [
+            "Forest Whispers",
+            "04"
+          ]
+        },
+        {
+          "src": "/media/projects/forest-whispers/gallery-05.jpg",
+          "alt": "Forest Whispers gallery 05",
+          "caption": [
+            "Forest Whispers",
+            "05"
+          ]
+        },
+        {
+          "src": "/media/projects/forest-whispers/gallery-06.jpg",
+          "alt": "Forest Whispers gallery 06",
+          "caption": [
+            "Forest Whispers",
+            "06"
+          ]
+        },
+        {
+          "src": "/media/projects/forest-whispers/gallery-07.jpg",
+          "alt": "Forest Whispers gallery 07",
+          "caption": [
+            "Forest Whispers",
+            "07"
+          ]
+        },
+        {
+          "src": "/media/projects/forest-whispers/gallery-08.jpg",
+          "alt": "Forest Whispers gallery 08",
+          "caption": [
+            "Forest Whispers",
+            "08"
+          ]
+        },
+        {
+          "src": "/media/projects/forest-whispers/gallery-09.jpg",
+          "alt": "Forest Whispers gallery 09",
+          "caption": [
+            "Forest Whispers",
+            "09"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/forest-whispers/gallery-10.jpg",
+          "alt": "Forest Whispers gallery 10",
+          "caption": [
+            "Forest Whispers",
+            "10"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 21",
+    "cover": "/media/projects/quicksand-champagne-gold/gallery-01.png"
+  }
+}

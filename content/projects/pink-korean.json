@@ -1,0 +1,101 @@
+{
+  "slug": "pink-korean",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Pink Korean",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Pink Korean is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Pink · Korean · Soft",
+  "cover": "/media/projects/pink-korean/gallery-01.png",
+  "film": {
+    "src": "/media/projects/pink-korean/film.mp4",
+    "poster": "/media/projects/pink-korean/gallery-01.png"
+  },
+  "gallery": [
+    {
+      "gc": 2,
+      "count": 2,
+      "items": [
+        {
+          "src": "/media/projects/pink-korean/gallery-01.png",
+          "alt": "Pink Korean gallery 01",
+          "caption": [
+            "Pink Korean",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/pink-korean/gallery-02.png",
+          "alt": "Pink Korean gallery 02",
+          "caption": [
+            "Pink Korean",
+            "02"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/pink-korean/gallery-03.png",
+          "alt": "Pink Korean gallery 03",
+          "caption": [
+            "Pink Korean",
+            "03"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/pink-korean/gallery-04.png",
+          "alt": "Pink Korean gallery 04",
+          "caption": [
+            "Pink Korean",
+            "04"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/pink-korean/gallery-05.png",
+          "alt": "Pink Korean gallery 05",
+          "caption": [
+            "Pink Korean",
+            "05"
+          ]
+        },
+        {
+          "src": "/media/projects/pink-korean/gallery-06.png",
+          "alt": "Pink Korean gallery 06",
+          "caption": [
+            "Pink Korean",
+            "06"
+          ]
+        },
+        {
+          "src": "/media/projects/pink-korean/gallery-07.png",
+          "alt": "Pink Korean gallery 07",
+          "caption": [
+            "Pink Korean",
+            "07"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 30",
+    "cover": "/media/projects/purple-champagne/gallery-01.png"
+  }
+}

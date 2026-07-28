@@ -1,0 +1,99 @@
+{
+  "slug": "thai-sunlit-floral-house",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Thai Sunlit Floral House",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Thai Sunlit Floral House is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Thai · Sunlit · Floral",
+  "cover": "/media/projects/thai-sunlit-floral-house/gallery-01.png",
+  "film": {
+    "src": "/media/projects/thai-sunlit-floral-house/film.mp4",
+    "poster": "/media/projects/thai-sunlit-floral-house/gallery-01.png"
+  },
+  "gallery": [
+    {
+      "gc": 3,
+      "count": 9,
+      "items": [
+        {
+          "src": "/media/projects/thai-sunlit-floral-house/gallery-01.png",
+          "alt": "Thai Sunlit Floral House gallery 01",
+          "caption": [
+            "Thai Sunlit Floral House",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/thai-sunlit-floral-house/gallery-02.png",
+          "alt": "Thai Sunlit Floral House gallery 02",
+          "caption": [
+            "Thai Sunlit Floral House",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/thai-sunlit-floral-house/gallery-03.png",
+          "alt": "Thai Sunlit Floral House gallery 03",
+          "caption": [
+            "Thai Sunlit Floral House",
+            "03"
+          ]
+        },
+        {
+          "src": "/media/projects/thai-sunlit-floral-house/gallery-04.png",
+          "alt": "Thai Sunlit Floral House gallery 04",
+          "caption": [
+            "Thai Sunlit Floral House",
+            "04"
+          ]
+        },
+        {
+          "src": "/media/projects/thai-sunlit-floral-house/gallery-05.png",
+          "alt": "Thai Sunlit Floral House gallery 05",
+          "caption": [
+            "Thai Sunlit Floral House",
+            "05"
+          ]
+        },
+        {
+          "src": "/media/projects/thai-sunlit-floral-house/gallery-06.png",
+          "alt": "Thai Sunlit Floral House gallery 06",
+          "caption": [
+            "Thai Sunlit Floral House",
+            "06"
+          ]
+        },
+        {
+          "src": "/media/projects/thai-sunlit-floral-house/gallery-07.png",
+          "alt": "Thai Sunlit Floral House gallery 07",
+          "caption": [
+            "Thai Sunlit Floral House",
+            "07"
+          ]
+        },
+        {
+          "src": "/media/projects/thai-sunlit-floral-house/gallery-08.png",
+          "alt": "Thai Sunlit Floral House gallery 08",
+          "caption": [
+            "Thai Sunlit Floral House",
+            "08"
+          ]
+        },
+        {
+          "src": "/media/projects/thai-sunlit-floral-house/gallery-09.png",
+          "alt": "Thai Sunlit Floral House gallery 09",
+          "caption": [
+            "Thai Sunlit Floral House",
+            "09"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 50",
+    "cover": "/media/projects/golden-wheat/gallery-01.png"
+  }
+}

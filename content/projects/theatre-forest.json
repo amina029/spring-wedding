@@ -1,0 +1,109 @@
+{
+  "slug": "theatre-forest",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Theatre Forest",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Theatre Forest is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Theatre · Forest · Green",
+  "cover": "/media/projects/theatre-forest/gallery-01.jpg",
+  "film": {
+    "src": "/media/projects/theatre-forest/film.mp4",
+    "poster": "/media/projects/theatre-forest/gallery-01.jpg"
+  },
+  "gallery": [
+    {
+      "gc": 2,
+      "count": 2,
+      "items": [
+        {
+          "src": "/media/projects/theatre-forest/gallery-01.jpg",
+          "alt": "Theatre Forest gallery 01",
+          "caption": [
+            "Theatre Forest",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/theatre-forest/gallery-02.jpg",
+          "alt": "Theatre Forest gallery 02",
+          "caption": [
+            "Theatre Forest",
+            "02"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 4,
+      "items": [
+        {
+          "src": "/media/projects/theatre-forest/gallery-03.jpg",
+          "alt": "Theatre Forest gallery 03",
+          "caption": [
+            "Theatre Forest",
+            "03"
+          ]
+        },
+        {
+          "src": "/media/projects/theatre-forest/gallery-04.jpg",
+          "alt": "Theatre Forest gallery 04",
+          "caption": [
+            "Theatre Forest",
+            "04"
+          ]
+        },
+        {
+          "src": "/media/projects/theatre-forest/gallery-05.jpg",
+          "alt": "Theatre Forest gallery 05",
+          "caption": [
+            "Theatre Forest",
+            "05"
+          ]
+        },
+        {
+          "src": "/media/projects/theatre-forest/gallery-06.jpg",
+          "alt": "Theatre Forest gallery 06",
+          "caption": [
+            "Theatre Forest",
+            "06"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/theatre-forest/gallery-07.jpg",
+          "alt": "Theatre Forest gallery 07",
+          "caption": [
+            "Theatre Forest",
+            "07"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/theatre-forest/gallery-08.jpg",
+          "alt": "Theatre Forest gallery 08",
+          "caption": [
+            "Theatre Forest",
+            "08"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 12",
+    "cover": "/media/projects/harry-potter-magic-wedding/gallery-01.jpg"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "red-black-runway",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Red & Black Runway",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Red & Black Runway is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Red · Black · Runway",
+  "cover": "/media/projects/red-black-runway/gallery-01.jpg",
+  "film": {
+    "src": "/media/projects/red-black-runway/film.mp4",
+    "poster": "/media/projects/red-black-runway/gallery-01.jpg"
+  },
+  "gallery": [
+    {
+      "gc": 3,
+      "count": 13,
+      "items": [
+        {
+          "src": "/media/projects/red-black-runway/gallery-01.jpg",
+          "alt": "Red & Black Runway gallery 01",
+          "caption": [
+            "Red & Black Runway",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/red-black-runway/gallery-02.jpg",
+          "alt": "Red & Black Runway gallery 02",
+          "caption": [
+            "Red & Black Runway",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/red-black-runway/gallery-03.jpg",
+          "alt": "Red & Black Runway gallery 03",
+          "caption": [
+            "Red & Black Runway",
+            "03"
+          ]
+        },
+        {
+          "src": "/media/projects/red-black-runway/gallery-04.jpg",
+          "alt": "Red & Black Runway gallery 04",
+          "caption": [
+            "Red & Black Runway",
+            "04"
+          ]
+        },
+        {
+          "src": "/media/projects/red-black-runway/gallery-05.jpg",
+          "alt": "Red & Black Runway gallery 05",
+          "caption": [
+            "Red & Black Runway",
+            "05"
+          ]
+        },
+        {
+          "src": "/media/projects/red-black-runway/gallery-06.jpg",
+          "alt": "Red & Black Runway gallery 06",
+          "caption": [
+            "Red & Black Runway",
+            "06"
+          ]
+        },
+        {
+          "src": "/media/projects/red-black-runway/gallery-07.jpg",
+          "alt": "Red & Black Runway gallery 07",
+          "caption": [
+            "Red & Black Runway",
+            "07"
+          ]
+        },
+        {
+          "src": "/media/projects/red-black-runway/gallery-08.jpg",
+          "alt": "Red & Black Runway gallery 08",
+          "caption": [
+            "Red & Black Runway",
+            "08"
+          ]
+        },
+        {
+          "src": "/media/projects/red-black-runway/gallery-09.jpg",
+          "alt": "Red & Black Runway gallery 09",
+          "caption": [
+            "Red & Black Runway",
+            "09"
+          ]
+        },
+        {
+          "src": "/media/projects/red-black-runway/gallery-10.jpg",
+          "alt": "Red & Black Runway gallery 10",
+          "caption": [
+            "Red & Black Runway",
+            "10"
+          ]
+        },
+        {
+          "src": "/media/projects/red-black-runway/gallery-11.jpg",
+          "alt": "Red & Black Runway gallery 11",
+          "caption": [
+            "Red & Black Runway",
+            "11"
+          ]
+        },
+        {
+          "src": "/media/projects/red-black-runway/gallery-12.jpg",
+          "alt": "Red & Black Runway gallery 12",
+          "caption": [
+            "Red & Black Runway",
+            "12"
+          ]
+        },
+        {
+          "src": "/media/projects/red-black-runway/gallery-13.jpg",
+          "alt": "Red & Black Runway gallery 13",
+          "caption": [
+            "Red & Black Runway",
+            "13"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/red-black-runway/gallery-14.jpg",
+          "alt": "Red & Black Runway gallery 14",
+          "caption": [
+            "Red & Black Runway",
+            "14"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 33",
+    "cover": "/media/projects/pure-korean/gallery-01.png"
+  }
+}

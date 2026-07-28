@@ -1,0 +1,51 @@
+{
+  "slug": "vast-cosmos",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Vast Cosmos",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Vast Cosmos is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Cosmos · Vast · Starlight",
+  "cover": "/media/projects/vast-cosmos/gallery-01.jpg",
+  "film": {
+    "src": "/media/projects/vast-cosmos/film.mp4",
+    "poster": "/media/projects/vast-cosmos/gallery-01.jpg"
+  },
+  "gallery": [
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/vast-cosmos/gallery-01.jpg",
+          "alt": "Vast Cosmos gallery 01",
+          "caption": [
+            "Vast Cosmos",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/vast-cosmos/gallery-02.jpg",
+          "alt": "Vast Cosmos gallery 02",
+          "caption": [
+            "Vast Cosmos",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/vast-cosmos/gallery-03.jpg",
+          "alt": "Vast Cosmos gallery 03",
+          "caption": [
+            "Vast Cosmos",
+            "03"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 23",
+    "cover": "/media/projects/starry-blue-reverie/gallery-01.png"
+  }
+}

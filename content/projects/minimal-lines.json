@@ -1,0 +1,67 @@
+{
+  "slug": "minimal-lines",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Minimal Lines",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Minimal Lines is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Minimal · Line · Purity",
+  "cover": "/media/projects/minimal-lines/gallery-01.png",
+  "film": {
+    "src": "/media/projects/minimal-lines/film.mp4",
+    "poster": "/media/projects/minimal-lines/gallery-01.png"
+  },
+  "gallery": [
+    {
+      "gc": 3,
+      "count": 5,
+      "items": [
+        {
+          "src": "/media/projects/minimal-lines/gallery-01.png",
+          "alt": "Minimal Lines gallery 01",
+          "caption": [
+            "Minimal Lines",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/minimal-lines/gallery-02.png",
+          "alt": "Minimal Lines gallery 02",
+          "caption": [
+            "Minimal Lines",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/minimal-lines/gallery-03.png",
+          "alt": "Minimal Lines gallery 03",
+          "caption": [
+            "Minimal Lines",
+            "03"
+          ]
+        },
+        {
+          "src": "/media/projects/minimal-lines/gallery-04.png",
+          "alt": "Minimal Lines gallery 04",
+          "caption": [
+            "Minimal Lines",
+            "04"
+          ]
+        },
+        {
+          "src": "/media/projects/minimal-lines/gallery-05.png",
+          "alt": "Minimal Lines gallery 05",
+          "caption": [
+            "Minimal Lines",
+            "05"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 20",
+    "cover": "/media/projects/forest-whispers/gallery-01.jpg"
+  }
+}

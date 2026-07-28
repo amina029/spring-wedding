@@ -1,0 +1,95 @@
+{
+  "slug": "monet-floral-art",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Monet Floral Art",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Monet Floral Art is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Monet · Floral · Art",
+  "cover": "/media/projects/monet-floral-art/gallery-01.jpg",
+  "film": {
+    "src": "/media/projects/monet-floral-art/film.mp4",
+    "poster": "/media/projects/monet-floral-art/gallery-01.jpg"
+  },
+  "gallery": [
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/monet-floral-art/gallery-01.jpg",
+          "alt": "Monet Floral Art gallery 01",
+          "caption": [
+            "Monet Floral Art",
+            "01"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/monet-floral-art/gallery-02.jpg",
+          "alt": "Monet Floral Art gallery 02",
+          "caption": [
+            "Monet Floral Art",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/monet-floral-art/gallery-03.jpg",
+          "alt": "Monet Floral Art gallery 03",
+          "caption": [
+            "Monet Floral Art",
+            "03"
+          ]
+        },
+        {
+          "src": "/media/projects/monet-floral-art/gallery-04.jpg",
+          "alt": "Monet Floral Art gallery 04",
+          "caption": [
+            "Monet Floral Art",
+            "04"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/monet-floral-art/gallery-05.jpg",
+          "alt": "Monet Floral Art gallery 05",
+          "caption": [
+            "Monet Floral Art",
+            "05"
+          ]
+        },
+        {
+          "src": "/media/projects/monet-floral-art/gallery-06.jpg",
+          "alt": "Monet Floral Art gallery 06",
+          "caption": [
+            "Monet Floral Art",
+            "06"
+          ]
+        },
+        {
+          "src": "/media/projects/monet-floral-art/gallery-07.jpg",
+          "alt": "Monet Floral Art gallery 07",
+          "caption": [
+            "Monet Floral Art",
+            "07"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 39",
+    "cover": "/media/projects/blue-dream/gallery-01.jpg"
+  }
+}

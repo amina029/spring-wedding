@@ -1,0 +1,119 @@
+{
+  "slug": "galaxy-splendor",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Galaxy Splendor",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Galaxy Splendor is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Galaxy · Starlight · Splendor",
+  "cover": "/media/projects/galaxy-splendor/gallery-01.jpg",
+  "film": {
+    "src": "/media/projects/galaxy-splendor/film.mp4",
+    "poster": "/media/projects/galaxy-splendor/gallery-01.jpg"
+  },
+  "gallery": [
+    {
+      "gc": 3,
+      "count": 5,
+      "items": [
+        {
+          "src": "/media/projects/galaxy-splendor/gallery-01.jpg",
+          "alt": "Galaxy Splendor gallery 01",
+          "caption": [
+            "Galaxy Splendor",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/galaxy-splendor/gallery-02.jpg",
+          "alt": "Galaxy Splendor gallery 02",
+          "caption": [
+            "Galaxy Splendor",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/galaxy-splendor/gallery-03.jpg",
+          "alt": "Galaxy Splendor gallery 03",
+          "caption": [
+            "Galaxy Splendor",
+            "03"
+          ]
+        },
+        {
+          "src": "/media/projects/galaxy-splendor/gallery-04.jpg",
+          "alt": "Galaxy Splendor gallery 04",
+          "caption": [
+            "Galaxy Splendor",
+            "04"
+          ]
+        },
+        {
+          "src": "/media/projects/galaxy-splendor/gallery-05.jpg",
+          "alt": "Galaxy Splendor gallery 05",
+          "caption": [
+            "Galaxy Splendor",
+            "05"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/galaxy-splendor/gallery-06.jpg",
+          "alt": "Galaxy Splendor gallery 06",
+          "caption": [
+            "Galaxy Splendor",
+            "06"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 4,
+      "items": [
+        {
+          "src": "/media/projects/galaxy-splendor/gallery-07.jpg",
+          "alt": "Galaxy Splendor gallery 07",
+          "caption": [
+            "Galaxy Splendor",
+            "07"
+          ]
+        },
+        {
+          "src": "/media/projects/galaxy-splendor/gallery-08.jpg",
+          "alt": "Galaxy Splendor gallery 08",
+          "caption": [
+            "Galaxy Splendor",
+            "08"
+          ]
+        },
+        {
+          "src": "/media/projects/galaxy-splendor/gallery-09.jpg",
+          "alt": "Galaxy Splendor gallery 09",
+          "caption": [
+            "Galaxy Splendor",
+            "09"
+          ]
+        },
+        {
+          "src": "/media/projects/galaxy-splendor/gallery-10.jpg",
+          "alt": "Galaxy Splendor gallery 10",
+          "caption": [
+            "Galaxy Splendor",
+            "10"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 18",
+    "cover": "/media/projects/dark-fairytale/gallery-01.jpg"
+  }
+}

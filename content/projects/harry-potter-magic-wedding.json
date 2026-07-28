@@ -1,0 +1,99 @@
+{
+  "slug": "harry-potter-magic-wedding",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Harry Potter Magic Wedding",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Harry Potter Magic Wedding is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Magic · Mystery · Candlelight",
+  "cover": "/media/projects/harry-potter-magic-wedding/gallery-01.jpg",
+  "film": {
+    "src": "/media/projects/harry-potter-magic-wedding/film.mp4",
+    "poster": "/media/projects/harry-potter-magic-wedding/gallery-01.jpg"
+  },
+  "gallery": [
+    {
+      "gc": 3,
+      "count": 9,
+      "items": [
+        {
+          "src": "/media/projects/harry-potter-magic-wedding/gallery-01.jpg",
+          "alt": "Harry Potter Magic Wedding gallery 01",
+          "caption": [
+            "Harry Potter Magic Wedding",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/harry-potter-magic-wedding/gallery-02.png",
+          "alt": "Harry Potter Magic Wedding gallery 02",
+          "caption": [
+            "Harry Potter Magic Wedding",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/harry-potter-magic-wedding/gallery-03.png",
+          "alt": "Harry Potter Magic Wedding gallery 03",
+          "caption": [
+            "Harry Potter Magic Wedding",
+            "03"
+          ]
+        },
+        {
+          "src": "/media/projects/harry-potter-magic-wedding/gallery-04.png",
+          "alt": "Harry Potter Magic Wedding gallery 04",
+          "caption": [
+            "Harry Potter Magic Wedding",
+            "04"
+          ]
+        },
+        {
+          "src": "/media/projects/harry-potter-magic-wedding/gallery-05.png",
+          "alt": "Harry Potter Magic Wedding gallery 05",
+          "caption": [
+            "Harry Potter Magic Wedding",
+            "05"
+          ]
+        },
+        {
+          "src": "/media/projects/harry-potter-magic-wedding/gallery-06.png",
+          "alt": "Harry Potter Magic Wedding gallery 06",
+          "caption": [
+            "Harry Potter Magic Wedding",
+            "06"
+          ]
+        },
+        {
+          "src": "/media/projects/harry-potter-magic-wedding/gallery-07.png",
+          "alt": "Harry Potter Magic Wedding gallery 07",
+          "caption": [
+            "Harry Potter Magic Wedding",
+            "07"
+          ]
+        },
+        {
+          "src": "/media/projects/harry-potter-magic-wedding/gallery-08.png",
+          "alt": "Harry Potter Magic Wedding gallery 08",
+          "caption": [
+            "Harry Potter Magic Wedding",
+            "08"
+          ]
+        },
+        {
+          "src": "/media/projects/harry-potter-magic-wedding/gallery-09.png",
+          "alt": "Harry Potter Magic Wedding gallery 09",
+          "caption": [
+            "Harry Potter Magic Wedding",
+            "09"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 13",
+    "cover": "/media/projects/amphitheatre/gallery-01.jpg"
+  }
+}

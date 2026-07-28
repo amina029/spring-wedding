@@ -1,0 +1,65 @@
+{
+  "slug": "dark-fairytale",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Dark Fairytale",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Dark Fairytale is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Dark · Fairy · Tale",
+  "cover": "/media/projects/dark-fairytale/gallery-01.jpg",
+  "film": {
+    "src": "/media/projects/dark-fairytale/film.mp4",
+    "poster": "/media/projects/dark-fairytale/gallery-01.jpg"
+  },
+  "gallery": [
+    {
+      "gc": 2,
+      "count": 2,
+      "items": [
+        {
+          "src": "/media/projects/dark-fairytale/gallery-01.jpg",
+          "alt": "Dark Fairytale gallery 01",
+          "caption": [
+            "Dark Fairytale",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/dark-fairytale/gallery-02.png",
+          "alt": "Dark Fairytale gallery 02",
+          "caption": [
+            "Dark Fairytale",
+            "02"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 2,
+      "count": 2,
+      "items": [
+        {
+          "src": "/media/projects/dark-fairytale/gallery-03.jpg",
+          "alt": "Dark Fairytale gallery 03",
+          "caption": [
+            "Dark Fairytale",
+            "03"
+          ]
+        },
+        {
+          "src": "/media/projects/dark-fairytale/gallery-04.jpg",
+          "alt": "Dark Fairytale gallery 04",
+          "caption": [
+            "Dark Fairytale",
+            "04"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 19",
+    "cover": "/media/projects/minimal-lines/gallery-01.png"
+  }
+}

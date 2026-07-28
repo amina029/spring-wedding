@@ -1,0 +1,73 @@
+{
+  "slug": "black-red-crystal",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Black & Red Crystal",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Black & Red Crystal is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Black · Red · Crystal",
+  "cover": "/media/projects/black-red-crystal/gallery-01.jpg",
+  "film": {
+    "src": "/media/projects/black-red-crystal/film.mp4",
+    "poster": "/media/projects/black-red-crystal/gallery-01.jpg"
+  },
+  "gallery": [
+    {
+      "gc": 3,
+      "count": 4,
+      "items": [
+        {
+          "src": "/media/projects/black-red-crystal/gallery-01.jpg",
+          "alt": "Black & Red Crystal gallery 01",
+          "caption": [
+            "Black & Red Crystal",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/black-red-crystal/gallery-02.jpg",
+          "alt": "Black & Red Crystal gallery 02",
+          "caption": [
+            "Black & Red Crystal",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/black-red-crystal/gallery-03.jpg",
+          "alt": "Black & Red Crystal gallery 03",
+          "caption": [
+            "Black & Red Crystal",
+            "03"
+          ]
+        },
+        {
+          "src": "/media/projects/black-red-crystal/gallery-04.jpg",
+          "alt": "Black & Red Crystal gallery 04",
+          "caption": [
+            "Black & Red Crystal",
+            "04"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/black-red-crystal/gallery-05.jpg",
+          "alt": "Black & Red Crystal gallery 05",
+          "caption": [
+            "Black & Red Crystal",
+            "05"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 52",
+    "cover": "/media/projects/black-red-feast/gallery-01.jpg"
+  }
+}

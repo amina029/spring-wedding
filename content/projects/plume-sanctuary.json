@@ -1,0 +1,101 @@
+{
+  "slug": "plume-sanctuary",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Plume Sanctuary",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Plume Sanctuary is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Plume · Sanctuary · Divine",
+  "cover": "/media/projects/plume-sanctuary/gallery-01.jpg",
+  "film": {
+    "src": "/media/projects/plume-sanctuary/film.mp4",
+    "poster": "/media/projects/plume-sanctuary/gallery-01.jpg"
+  },
+  "gallery": [
+    {
+      "gc": 3,
+      "count": 4,
+      "items": [
+        {
+          "src": "/media/projects/plume-sanctuary/gallery-01.jpg",
+          "alt": "Plume Sanctuary gallery 01",
+          "caption": [
+            "Plume Sanctuary",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/plume-sanctuary/gallery-02.jpg",
+          "alt": "Plume Sanctuary gallery 02",
+          "caption": [
+            "Plume Sanctuary",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/plume-sanctuary/gallery-03.jpg",
+          "alt": "Plume Sanctuary gallery 03",
+          "caption": [
+            "Plume Sanctuary",
+            "03"
+          ]
+        },
+        {
+          "src": "/media/projects/plume-sanctuary/gallery-04.jpg",
+          "alt": "Plume Sanctuary gallery 04",
+          "caption": [
+            "Plume Sanctuary",
+            "04"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/plume-sanctuary/gallery-05.jpg",
+          "alt": "Plume Sanctuary gallery 05",
+          "caption": [
+            "Plume Sanctuary",
+            "05"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/plume-sanctuary/gallery-06.jpg",
+          "alt": "Plume Sanctuary gallery 06",
+          "caption": [
+            "Plume Sanctuary",
+            "06"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/plume-sanctuary/gallery-07.jpg",
+          "alt": "Plume Sanctuary gallery 07",
+          "caption": [
+            "Plume Sanctuary",
+            "07"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 36",
+    "cover": "/media/projects/peony-rose-banquet/gallery-01.jpg"
+  }
+}

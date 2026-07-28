@@ -1,0 +1,13 @@
+{
+  "name": "spring-wedding",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SPRING 作品集 — 静态站点，由 content/*.json + build.js 生成",
+  "scripts": {
+    "build": "node build.js",
+    "extract": "python3 scripts/extract.py"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

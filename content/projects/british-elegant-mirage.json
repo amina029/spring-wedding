@@ -1,0 +1,207 @@
+{
+  "slug": "british-elegant-mirage",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "British Elegant Mirage",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "British Elegant Mirage is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "British · Elegant · Mirage",
+  "cover": "/media/projects/british-elegant-mirage/gallery-01.jpg",
+  "film": {
+    "src": "/media/projects/british-elegant-mirage/film.mp4",
+    "poster": "/media/projects/british-elegant-mirage/gallery-01.jpg"
+  },
+  "gallery": [
+    {
+      "gc": 3,
+      "count": 5,
+      "items": [
+        {
+          "src": "/media/projects/british-elegant-mirage/gallery-01.jpg",
+          "alt": "British Elegant Mirage gallery 01",
+          "caption": [
+            "British Elegant Mirage",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/british-elegant-mirage/gallery-02.jpg",
+          "alt": "British Elegant Mirage gallery 02",
+          "caption": [
+            "British Elegant Mirage",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/british-elegant-mirage/gallery-03.jpg",
+          "alt": "British Elegant Mirage gallery 03",
+          "caption": [
+            "British Elegant Mirage",
+            "03"
+          ]
+        },
+        {
+          "src": "/media/projects/british-elegant-mirage/gallery-04.jpg",
+          "alt": "British Elegant Mirage gallery 04",
+          "caption": [
+            "British Elegant Mirage",
+            "04"
+          ]
+        },
+        {
+          "src": "/media/projects/british-elegant-mirage/gallery-05.jpg",
+          "alt": "British Elegant Mirage gallery 05",
+          "caption": [
+            "British Elegant Mirage",
+            "05"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 4,
+      "items": [
+        {
+          "src": "/media/projects/british-elegant-mirage/gallery-06.jpg",
+          "alt": "British Elegant Mirage gallery 06",
+          "caption": [
+            "British Elegant Mirage",
+            "06"
+          ]
+        },
+        {
+          "src": "/media/projects/british-elegant-mirage/gallery-07.jpg",
+          "alt": "British Elegant Mirage gallery 07",
+          "caption": [
+            "British Elegant Mirage",
+            "07"
+          ]
+        },
+        {
+          "src": "/media/projects/british-elegant-mirage/gallery-08.jpg",
+          "alt": "British Elegant Mirage gallery 08",
+          "caption": [
+            "British Elegant Mirage",
+            "08"
+          ]
+        },
+        {
+          "src": "/media/projects/british-elegant-mirage/gallery-09.jpg",
+          "alt": "British Elegant Mirage gallery 09",
+          "caption": [
+            "British Elegant Mirage",
+            "09"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/british-elegant-mirage/gallery-10.jpg",
+          "alt": "British Elegant Mirage gallery 10",
+          "caption": [
+            "British Elegant Mirage",
+            "10"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 2,
+      "count": 2,
+      "items": [
+        {
+          "src": "/media/projects/british-elegant-mirage/gallery-11.jpg",
+          "alt": "British Elegant Mirage gallery 11",
+          "caption": [
+            "British Elegant Mirage",
+            "11"
+          ]
+        },
+        {
+          "src": "/media/projects/british-elegant-mirage/gallery-12.jpg",
+          "alt": "British Elegant Mirage gallery 12",
+          "caption": [
+            "British Elegant Mirage",
+            "12"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/british-elegant-mirage/gallery-13.jpg",
+          "alt": "British Elegant Mirage gallery 13",
+          "caption": [
+            "British Elegant Mirage",
+            "13"
+          ]
+        },
+        {
+          "src": "/media/projects/british-elegant-mirage/gallery-14.jpg",
+          "alt": "British Elegant Mirage gallery 14",
+          "caption": [
+            "British Elegant Mirage",
+            "14"
+          ]
+        },
+        {
+          "src": "/media/projects/british-elegant-mirage/gallery-15.jpg",
+          "alt": "British Elegant Mirage gallery 15",
+          "caption": [
+            "British Elegant Mirage",
+            "15"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 2,
+      "count": 2,
+      "items": [
+        {
+          "src": "/media/projects/british-elegant-mirage/gallery-16.jpg",
+          "alt": "British Elegant Mirage gallery 16",
+          "caption": [
+            "British Elegant Mirage",
+            "16"
+          ]
+        },
+        {
+          "src": "/media/projects/british-elegant-mirage/gallery-17.jpg",
+          "alt": "British Elegant Mirage gallery 17",
+          "caption": [
+            "British Elegant Mirage",
+            "17"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/british-elegant-mirage/gallery-18.jpg",
+          "alt": "British Elegant Mirage gallery 18",
+          "caption": [
+            "British Elegant Mirage",
+            "18"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 38",
+    "cover": "/media/projects/monet-floral-art/gallery-01.jpg"
+  }
+}

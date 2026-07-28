@@ -1,0 +1,63 @@
+{
+  "slug": "gilded-song-dynasty",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Gilded Song Dynasty",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Gilded Song Dynasty is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Gilded · Song · Dynasty",
+  "cover": "/media/projects/gilded-song-dynasty/gallery-01.jpg",
+  "film": {
+    "src": "/media/projects/gilded-song-dynasty/film.mp4",
+    "poster": "/media/projects/gilded-song-dynasty/gallery-01.jpg"
+  },
+  "gallery": [
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/gilded-song-dynasty/gallery-01.jpg",
+          "alt": "Gilded Song Dynasty gallery 01",
+          "caption": [
+            "Gilded Song Dynasty",
+            "01"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/gilded-song-dynasty/gallery-02.jpg",
+          "alt": "Gilded Song Dynasty gallery 02",
+          "caption": [
+            "Gilded Song Dynasty",
+            "02"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/gilded-song-dynasty/gallery-03.jpg",
+          "alt": "Gilded Song Dynasty gallery 03",
+          "caption": [
+            "Gilded Song Dynasty",
+            "03"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 42",
+    "cover": "/media/projects/gilded-era/gallery-01.jpg"
+  }
+}

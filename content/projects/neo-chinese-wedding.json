@@ -1,0 +1,93 @@
+{
+  "slug": "neo-chinese-wedding",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Neo-Chinese Wedding",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Neo-Chinese Wedding is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Neo-Chinese · Red · Gold",
+  "cover": "/media/projects/neo-chinese-wedding/gallery-01.jpg",
+  "film": {
+    "src": "/media/projects/neo-chinese-wedding/film.mp4",
+    "poster": "/media/projects/neo-chinese-wedding/gallery-01.jpg"
+  },
+  "gallery": [
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/neo-chinese-wedding/gallery-01.jpg",
+          "alt": "Neo-Chinese Wedding gallery 01",
+          "caption": [
+            "Neo-Chinese Wedding",
+            "01"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/neo-chinese-wedding/gallery-02.jpg",
+          "alt": "Neo-Chinese Wedding gallery 02",
+          "caption": [
+            "Neo-Chinese Wedding",
+            "02"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/neo-chinese-wedding/gallery-03.jpg",
+          "alt": "Neo-Chinese Wedding gallery 03",
+          "caption": [
+            "Neo-Chinese Wedding",
+            "03"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/neo-chinese-wedding/gallery-04.jpg",
+          "alt": "Neo-Chinese Wedding gallery 04",
+          "caption": [
+            "Neo-Chinese Wedding",
+            "04"
+          ]
+        },
+        {
+          "src": "/media/projects/neo-chinese-wedding/gallery-05.jpg",
+          "alt": "Neo-Chinese Wedding gallery 05",
+          "caption": [
+            "Neo-Chinese Wedding",
+            "05"
+          ]
+        },
+        {
+          "src": "/media/projects/neo-chinese-wedding/gallery-06.jpg",
+          "alt": "Neo-Chinese Wedding gallery 06",
+          "caption": [
+            "Neo-Chinese Wedding",
+            "06"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 17",
+    "cover": "/media/projects/galaxy-splendor/gallery-01.jpg"
+  }
+}

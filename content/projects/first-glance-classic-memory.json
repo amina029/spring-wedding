@@ -1,0 +1,125 @@
+{
+  "slug": "first-glance-classic-memory",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "First Glance, Classic Memory",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "First Glance, Classic Memory is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Stunning · Classic · Memory",
+  "cover": "/media/projects/first-glance-classic-memory/gallery-01.jpg",
+  "film": {
+    "src": "/media/projects/first-glance-classic-memory/film.mp4",
+    "poster": "/media/projects/first-glance-classic-memory/gallery-01.jpg"
+  },
+  "gallery": [
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/first-glance-classic-memory/gallery-01.jpg",
+          "alt": "First Glance, Classic Memory gallery 01",
+          "caption": [
+            "First Glance, Classic Memory",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/first-glance-classic-memory/gallery-02.jpeg",
+          "alt": "First Glance, Classic Memory gallery 02",
+          "caption": [
+            "First Glance, Classic Memory",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/first-glance-classic-memory/gallery-03.jpeg",
+          "alt": "First Glance, Classic Memory gallery 03",
+          "caption": [
+            "First Glance, Classic Memory",
+            "03"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/first-glance-classic-memory/gallery-04.jpg",
+          "alt": "First Glance, Classic Memory gallery 04",
+          "caption": [
+            "First Glance, Classic Memory",
+            "04"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 5,
+      "items": [
+        {
+          "src": "/media/projects/first-glance-classic-memory/gallery-05.jpeg",
+          "alt": "First Glance, Classic Memory gallery 05",
+          "caption": [
+            "First Glance, Classic Memory",
+            "05"
+          ]
+        },
+        {
+          "src": "/media/projects/first-glance-classic-memory/gallery-06.jpeg",
+          "alt": "First Glance, Classic Memory gallery 06",
+          "caption": [
+            "First Glance, Classic Memory",
+            "06"
+          ]
+        },
+        {
+          "src": "/media/projects/first-glance-classic-memory/gallery-07.jpg",
+          "alt": "First Glance, Classic Memory gallery 07",
+          "caption": [
+            "First Glance, Classic Memory",
+            "07"
+          ]
+        },
+        {
+          "src": "/media/projects/first-glance-classic-memory/gallery-08.jpg",
+          "alt": "First Glance, Classic Memory gallery 08",
+          "caption": [
+            "First Glance, Classic Memory",
+            "08"
+          ]
+        },
+        {
+          "src": "/media/projects/first-glance-classic-memory/gallery-09.jpeg",
+          "alt": "First Glance, Classic Memory gallery 09",
+          "caption": [
+            "First Glance, Classic Memory",
+            "09"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/first-glance-classic-memory/gallery-10.jpeg",
+          "alt": "First Glance, Classic Memory gallery 10",
+          "caption": [
+            "First Glance, Classic Memory",
+            "10"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 10",
+    "cover": "/media/projects/theatre-multi-drape/gallery-01.png"
+  }
+}

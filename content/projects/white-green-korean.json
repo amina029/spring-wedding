@@ -1,0 +1,115 @@
+{
+  "slug": "white-green-korean",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "White & Green Korean",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "White & Green Korean is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "White · Green · Korean",
+  "cover": "/media/projects/white-green-korean/gallery-01.png",
+  "film": {
+    "src": "/media/projects/white-green-korean/film.mp4",
+    "poster": "/media/projects/white-green-korean/gallery-01.png"
+  },
+  "gallery": [
+    {
+      "gc": 2,
+      "count": 2,
+      "items": [
+        {
+          "src": "/media/projects/white-green-korean/gallery-01.png",
+          "alt": "White & Green Korean gallery 01",
+          "caption": [
+            "White & Green Korean",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/white-green-korean/gallery-02.png",
+          "alt": "White & Green Korean gallery 02",
+          "caption": [
+            "White & Green Korean",
+            "02"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/white-green-korean/gallery-03.png",
+          "alt": "White & Green Korean gallery 03",
+          "caption": [
+            "White & Green Korean",
+            "03"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/white-green-korean/gallery-04.png",
+          "alt": "White & Green Korean gallery 04",
+          "caption": [
+            "White & Green Korean",
+            "04"
+          ]
+        },
+        {
+          "src": "/media/projects/white-green-korean/gallery-05.png",
+          "alt": "White & Green Korean gallery 05",
+          "caption": [
+            "White & Green Korean",
+            "05"
+          ]
+        },
+        {
+          "src": "/media/projects/white-green-korean/gallery-06.png",
+          "alt": "White & Green Korean gallery 06",
+          "caption": [
+            "White & Green Korean",
+            "06"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/white-green-korean/gallery-07.png",
+          "alt": "White & Green Korean gallery 07",
+          "caption": [
+            "White & Green Korean",
+            "07"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/white-green-korean/gallery-08.jpg",
+          "alt": "White & Green Korean gallery 08",
+          "caption": [
+            "White & Green Korean",
+            "08"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 25",
+    "cover": "/media/projects/white-plume-gilt/gallery-01.jpg"
+  }
+}

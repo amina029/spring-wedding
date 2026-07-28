@@ -1,0 +1,121 @@
+{
+  "slug": "silver-tides",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Silver Tides",
+  "statement": "A ceremony suspended between water, light and air.",
+  "description": [
+    "Silver Tides transforms the room into an ethereal landscape. Translucent layers, cool-toned florals and sweeping metallic ribbons move through the space like a tide, giving the celebration a sense of weightless scale."
+  ],
+  "tone": "Ice blue · Silver · Translucence",
+  "cover": "/media/projects/silver-tides/cover.webp",
+  "film": {
+    "src": "/media/projects/silver-tides/film.mp4",
+    "poster": "/media/projects/silver-tides/cover.webp"
+  },
+  "gallery": [
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/silver-tides/gallery-01.webp",
+          "alt": "Silver Tides gallery 01",
+          "caption": [
+            "Silver Tides",
+            "01"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/silver-tides/gallery-02.webp",
+          "alt": "Silver Tides gallery 02",
+          "caption": [
+            "Silver Tides",
+            "02"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/silver-tides/gallery-03.webp",
+          "alt": "Silver Tides gallery 03",
+          "caption": [
+            "Silver Tides",
+            "03"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/silver-tides/gallery-04.webp",
+          "alt": "Silver Tides gallery 04",
+          "caption": [
+            "Silver Tides",
+            "04"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/silver-tides/gallery-05.webp",
+          "alt": "Silver Tides gallery 05",
+          "caption": [
+            "Silver Tides",
+            "05"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/silver-tides/gallery-06.webp",
+          "alt": "Silver Tides gallery 06",
+          "caption": [
+            "Silver Tides",
+            "06"
+          ]
+        },
+        {
+          "src": "/media/projects/silver-tides/gallery-07.webp",
+          "alt": "Silver Tides gallery 07",
+          "caption": [
+            "Silver Tides",
+            "07"
+          ]
+        },
+        {
+          "src": "/media/projects/silver-tides/gallery-08.webp",
+          "alt": "Silver Tides gallery 08",
+          "caption": [
+            "Silver Tides",
+            "08"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 02",
+    "cover": "/media/projects/midnight-gold/gallery-01.png"
+  }
+}

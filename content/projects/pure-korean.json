@@ -1,0 +1,149 @@
+{
+  "slug": "pure-korean",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Pure Korean",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Pure Korean is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Pure · Korean · Clean",
+  "cover": "/media/projects/pure-korean/gallery-01.png",
+  "film": {
+    "src": "/media/projects/pure-korean/film.mp4",
+    "poster": "/media/projects/pure-korean/gallery-01.png"
+  },
+  "gallery": [
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/pure-korean/gallery-01.png",
+          "alt": "Pure Korean gallery 01",
+          "caption": [
+            "Pure Korean",
+            "01"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 2,
+      "count": 2,
+      "items": [
+        {
+          "src": "/media/projects/pure-korean/gallery-02.jpg",
+          "alt": "Pure Korean gallery 02",
+          "caption": [
+            "Pure Korean",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/pure-korean/gallery-03.jpg",
+          "alt": "Pure Korean gallery 03",
+          "caption": [
+            "Pure Korean",
+            "03"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/pure-korean/gallery-04.jpg",
+          "alt": "Pure Korean gallery 04",
+          "caption": [
+            "Pure Korean",
+            "04"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/pure-korean/gallery-05.jpg",
+          "alt": "Pure Korean gallery 05",
+          "caption": [
+            "Pure Korean",
+            "05"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 2,
+      "count": 2,
+      "items": [
+        {
+          "src": "/media/projects/pure-korean/gallery-06.jpg",
+          "alt": "Pure Korean gallery 06",
+          "caption": [
+            "Pure Korean",
+            "06"
+          ]
+        },
+        {
+          "src": "/media/projects/pure-korean/gallery-07.jpg",
+          "alt": "Pure Korean gallery 07",
+          "caption": [
+            "Pure Korean",
+            "07"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/pure-korean/gallery-08.jpg",
+          "alt": "Pure Korean gallery 08",
+          "caption": [
+            "Pure Korean",
+            "08"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/pure-korean/gallery-09.jpg",
+          "alt": "Pure Korean gallery 09",
+          "caption": [
+            "Pure Korean",
+            "09"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/pure-korean/gallery-10.jpg",
+          "alt": "Pure Korean gallery 10",
+          "caption": [
+            "Pure Korean",
+            "10"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 34",
+    "cover": "/media/projects/emerald-wonderland/gallery-01.jpg"
+  }
+}

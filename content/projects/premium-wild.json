@@ -1,0 +1,131 @@
+{
+  "slug": "premium-wild",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Premium Wild",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Premium Wild is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Premium · Wild · Organic",
+  "cover": "/media/projects/premium-wild/gallery-01.jpg",
+  "film": {
+    "src": "/media/projects/premium-wild/film.mp4",
+    "poster": "/media/projects/premium-wild/gallery-01.jpg"
+  },
+  "gallery": [
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/premium-wild/gallery-01.jpg",
+          "alt": "Premium Wild gallery 01",
+          "caption": [
+            "Premium Wild",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/premium-wild/gallery-02.jpg",
+          "alt": "Premium Wild gallery 02",
+          "caption": [
+            "Premium Wild",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/premium-wild/gallery-03.jpg",
+          "alt": "Premium Wild gallery 03",
+          "caption": [
+            "Premium Wild",
+            "03"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/premium-wild/gallery-04.jpg",
+          "alt": "Premium Wild gallery 04",
+          "caption": [
+            "Premium Wild",
+            "04"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/premium-wild/gallery-05.jpg",
+          "alt": "Premium Wild gallery 05",
+          "caption": [
+            "Premium Wild",
+            "05"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/premium-wild/gallery-06.jpg",
+          "alt": "Premium Wild gallery 06",
+          "caption": [
+            "Premium Wild",
+            "06"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 4,
+      "items": [
+        {
+          "src": "/media/projects/premium-wild/gallery-07.jpg",
+          "alt": "Premium Wild gallery 07",
+          "caption": [
+            "Premium Wild",
+            "07"
+          ]
+        },
+        {
+          "src": "/media/projects/premium-wild/gallery-08.jpg",
+          "alt": "Premium Wild gallery 08",
+          "caption": [
+            "Premium Wild",
+            "08"
+          ]
+        },
+        {
+          "src": "/media/projects/premium-wild/gallery-09.jpg",
+          "alt": "Premium Wild gallery 09",
+          "caption": [
+            "Premium Wild",
+            "09"
+          ]
+        },
+        {
+          "src": "/media/projects/premium-wild/gallery-10.jpg",
+          "alt": "Premium Wild gallery 10",
+          "caption": [
+            "Premium Wild",
+            "10"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 49",
+    "cover": "/media/projects/thai-sunlit-floral-house/gallery-01.png"
+  }
+}

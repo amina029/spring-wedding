@@ -1,0 +1,89 @@
+{
+  "slug": "walking-on-clouds",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Walking on Clouds",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Walking on Clouds is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Cloud · White · Drapery",
+  "cover": "/media/projects/walking-on-clouds/gallery-01.png",
+  "film": {
+    "src": "/media/projects/walking-on-clouds/film.mp4",
+    "poster": "/media/projects/walking-on-clouds/gallery-01.png"
+  },
+  "gallery": [
+    {
+      "gc": 3,
+      "count": 4,
+      "items": [
+        {
+          "src": "/media/projects/walking-on-clouds/gallery-01.png",
+          "alt": "Walking on Clouds gallery 01",
+          "caption": [
+            "Walking on Clouds",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/walking-on-clouds/gallery-02.png",
+          "alt": "Walking on Clouds gallery 02",
+          "caption": [
+            "Walking on Clouds",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/walking-on-clouds/gallery-03.png",
+          "alt": "Walking on Clouds gallery 03",
+          "caption": [
+            "Walking on Clouds",
+            "03"
+          ]
+        },
+        {
+          "src": "/media/projects/walking-on-clouds/gallery-04.png",
+          "alt": "Walking on Clouds gallery 04",
+          "caption": [
+            "Walking on Clouds",
+            "04"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/walking-on-clouds/gallery-05.png",
+          "alt": "Walking on Clouds gallery 05",
+          "caption": [
+            "Walking on Clouds",
+            "05"
+          ]
+        },
+        {
+          "src": "/media/projects/walking-on-clouds/gallery-06.png",
+          "alt": "Walking on Clouds gallery 06",
+          "caption": [
+            "Walking on Clouds",
+            "06"
+          ]
+        },
+        {
+          "src": "/media/projects/walking-on-clouds/gallery-07.jpg",
+          "alt": "Walking on Clouds gallery 07",
+          "caption": [
+            "Walking on Clouds",
+            "07"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 07",
+    "cover": ""
+  }
+}

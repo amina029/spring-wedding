@@ -1,0 +1,129 @@
+{
+  "slug": "korean-garden",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Korean Garden",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Korean Garden is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Korean · Garden · Bloom",
+  "cover": "/media/projects/korean-garden/gallery-01.jpg",
+  "film": {
+    "src": "/media/projects/korean-garden/film.mp4",
+    "poster": "/media/projects/korean-garden/gallery-01.jpg"
+  },
+  "gallery": [
+    {
+      "gc": 2,
+      "count": 2,
+      "items": [
+        {
+          "src": "/media/projects/korean-garden/gallery-01.jpg",
+          "alt": "Korean Garden gallery 01",
+          "caption": [
+            "Korean Garden",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/korean-garden/gallery-02.png",
+          "alt": "Korean Garden gallery 02",
+          "caption": [
+            "Korean Garden",
+            "02"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/korean-garden/gallery-03.png",
+          "alt": "Korean Garden gallery 03",
+          "caption": [
+            "Korean Garden",
+            "03"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/korean-garden/gallery-04.png",
+          "alt": "Korean Garden gallery 04",
+          "caption": [
+            "Korean Garden",
+            "04"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/korean-garden/gallery-05.png",
+          "alt": "Korean Garden gallery 05",
+          "caption": [
+            "Korean Garden",
+            "05"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/korean-garden/gallery-06.png",
+          "alt": "Korean Garden gallery 06",
+          "caption": [
+            "Korean Garden",
+            "06"
+          ]
+        },
+        {
+          "src": "/media/projects/korean-garden/gallery-07.png",
+          "alt": "Korean Garden gallery 07",
+          "caption": [
+            "Korean Garden",
+            "07"
+          ]
+        },
+        {
+          "src": "/media/projects/korean-garden/gallery-08.png",
+          "alt": "Korean Garden gallery 08",
+          "caption": [
+            "Korean Garden",
+            "08"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/korean-garden/gallery-09.png",
+          "alt": "Korean Garden gallery 09",
+          "caption": [
+            "Korean Garden",
+            "09"
+          ]
+        }
+      ]
+    }
+  ],
+  "next": {
+    "label": "Next project · 47",
+    "cover": "/media/projects/korean-floral-sea/gallery-01.jpg"
+  }
+}
