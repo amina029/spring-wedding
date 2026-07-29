@@ -46,6 +46,7 @@ collections:
   - name: "projects"
     label: "项目"
     folder: "content/projects"
+    extension: json
     slug: "{{slug}}"
     fields:
       - {name: slug, label: "目录名（勿改）", widget: string}
