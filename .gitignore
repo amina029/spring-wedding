@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+.gitignore
+admin-custom/.env
+admin-custom/node_modules
+_backup_html/

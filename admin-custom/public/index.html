@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SPRING 作品集 · 可视化编辑器</title>
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="logo">SPRING</span>
+    <span class="sub">作品集编辑器</span>
+  </div>
+  <div class="top-actions">
+    <a class="ghost-btn" href="/preview-home" target="_blank">预览首页 ↗</a>
+    <button id="settingsBtn" class="ghost-btn">⚙ 设置</button>
+  </div>
+</header>
+
+<!-- 项目列表 -->
+<section id="listView" class="view">
+  <div class="list-head">
+    <h1>项目</h1>
+    <button id="editSiteBtn" class="primary-btn">⚙ 站点设置</button>
+  </div>
+  <div id="projectGrid" class="project-grid"><div class="loading">加载中…</div></div>
+</section>
+
+<!-- 项目编辑器 -->
+<section id="editorView" class="view hidden">
+  <div class="editor-head">
+    <button id="backBtn" class="ghost-btn">← 返回</button>
+    <h2 id="editorTitle">编辑项目</h2>
+    <div class="editor-head-actions">
+      <a id="previewBtn" class="ghost-btn" href="#" target="_blank">预览本页 ↗</a>
+      <button id="saveBtn" class="primary-btn">保存并发布 🚀</button>
+    </div>
+  </div>
+  <div id="saveStatus" class="save-status"></div>
+
+  <div class="editor-body">
+    <div class="panel">
+      <h3>基本信息</h3>
+      <label>小标题 (eyebrow)<input id="f_eyebrow" type="text" /></label>
+      <label>项目标题 (title)<input id="f_title" type="text" /></label>
+      <label>一句话定位 (statement)<input id="f_statement" type="text" /></label>
+      <label>色调关键词 (tone)<input id="f_tone" type="text" placeholder="如 Ice blue · Silver" /></label>
+
+      <h3>项目描述</h3>
+      <div id="descList" class="desc-list"></div>
+      <button id="addDescBtn" class="add-btn">+ 增加一段</button>
+
+      <h3>封面 & 影片</h3>
+      <div class="media-row">
+        <div class="media-preview">
+          <img id="coverPreview" alt="封面预览" />
+          <span class="media-label">封面</span>
+        </div>
+        <div class="media-controls">
+          <label>封面路径<input id="f_cover" type="text" placeholder="/media/projects/slug/cover.jpg" /></label>
+          <input id="coverFile" type="file" accept="image/*" hidden />
+          <button class="add-btn" data-upload="cover">上传封面图</button>
+          <hr/>
+          <label>影片地址 (film.src)<input id="f_film_src" type="text" placeholder="可留空" /></label>
+          <label>影片海报 (film.poster)<input id="f_film_poster" type="text" placeholder="可留空" /></label>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel gallery-panel">
+      <div class="gallery-head">
+        <h3>画廊</h3>
+        <span class="hint">拖动图片可排序 · 点 🗑 删除 · 数字为每行列数(gc)</span>
+      </div>
+      <div id="gallery"></div>
+      <button id="addGroupBtn" class="add-btn">+ 新增分组</button>
+    </div>
+  </div>
+</section>
+
+<!-- 站点设置 -->
+<section id="siteView" class="view hidden">
+  <div class="editor-head">
+    <button id="siteBackBtn" class="ghost-btn">← 返回</button>
+    <h2>站点设置（首页 / 页脚）</h2>
+    <button id="siteSaveBtn" class="primary-btn">保存并发布 🚀</button>
+  </div>
+  <div id="siteSaveStatus" class="save-status"></div>
+  <div class="editor-body">
+    <div class="panel">
+      <h3>首页文案</h3>
+      <label>引导语 (kicker)<input id="s_kicker" type="text" /></label>
+      <label>主标题前半 (titleLead)<input id="s_titleLead" type="text" /></label>
+      <label>主标题强调 (titleEm)<input id="s_titleEm" type="text" /></label>
+      <h3>页脚</h3>
+      <label>页脚小标 (footerEyebrow)<input id="s_footerEyebrow" type="text" /></label>
+      <label>页脚标题 (footerTitle)<input id="s_footerTitle" type="text" /></label>
+      <label>页脚正文 (footerBody)<textarea id="s_footerBody" rows="3"></textarea></label>
+      <h3>联系</h3>
+      <label>电话显示 (phone)<input id="s_phone" type="text" /></label>
+      <label>电话拨号 (phoneTel)<input id="s_phoneTel" type="text" /></label>
+      <label>联系备注 (contactNote)<input id="s_contactNote" type="text" /></label>
+      <label>微信二维码路径 (wechatQr)<input id="s_wechatQr" type="text" /></label>
+      <h3>首页项目顺序</h3>
+      <div id="orderList" class="order-list"></div>
+      <span class="hint">用 ↑ ↓ 调整首页展示顺序</span>
+    </div>
+  </div>
+</section>
+
+<!-- 设置弹窗 -->
+<div id="settingsModal" class="modal hidden">
+  <div class="modal-box">
+    <h3>GitHub 设置</h3>
+    <p class="hint">填入你的 GitHub 个人访问令牌（PAT，只需 <code>repo</code> 权限）。
+      令牌只存在你本机 <code>admin-custom/.env</code>，不会上传，也不会出现在网页里。</p>
+    <label>Token<input id="tokenInput" type="password" placeholder="ghp_..." /></label>
+    <div id="tokenStatus" class="hint"></div>
+    <div class="modal-actions">
+      <button id="tokenSaveBtn" class="primary-btn">保存</button>
+      <button id="tokenCloseBtn" class="ghost-btn">关闭</button>
+    </div>
+  </div>
+</div>
+
+<div id="toast" class="toast hidden"></div>
+
+<script src="/app.js"></script>
+</body>
+</html>
