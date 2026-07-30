@@ -32,7 +32,7 @@ collections:
           - {name: phone, label: "联系电话（显示）", widget: string, hint: "例如 +86 18066630026"}
           - {name: phoneTel, label: "电话(tel:链接,无空格)", widget: string, hint: "例如 +8618066630026"}
           - {name: contactNote, label: "联系方式备注", widget: string}
-          - {name: wechatQr, label: "微信二维码路径", widget: string, hint: "例如 /media/brand/wechat-qr.jpg"}
+          - {name: wechatQr, label: "微信二维码", widget: image, required: false, hint: "点击 Choose image 上传或选择；图片会存入 /media/ 目录"}
           - name: contactB
             label: "第二联系方式（第二首页 home-b.html 用）"
             widget: object
@@ -41,7 +41,7 @@ collections:
               - {name: phone, label: "B 联系电话（显示）", widget: string}
               - {name: phoneTel, label: "B 电话(tel:链接,无空格)", widget: string}
               - {name: contactNote, label: "B 联系方式备注", widget: string}
-              - {name: wechatQr, label: "B 微信二维码路径", widget: string}
+              - {name: wechatQr, label: "B 微信二维码", widget: image, required: false}
           - name: projects
             label: "首页项目顺序"
             widget: list

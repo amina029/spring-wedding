@@ -182,17 +182,18 @@ async function handleApi(req, res, url) {
 
   if (p === '/api/upload' && req.method === 'POST') {
     const body = JSON.parse(await readBody(req));
-    const { slug, filename, data } = body;
-    if (!slug || !filename || !data) return sendJSON(res, 400, { error: 'missing fields' });
+    const { slug, filename, data, brand } = body;
+    if (!filename || !data) return sendJSON(res, 400, { error: 'missing fields' });
     const m = data.match(/^data:([^;]+);base64,(.+)$/);
     const b64 = m ? m[2] : data;
     const buf = Buffer.from(b64, 'base64');
     const safeName = path.basename(filename).replace(/[^a-zA-Z0-9._-]/g, '_');
-    const dir = path.join(ROOT, 'media', 'projects', slug);
+    const dir = brand ? path.join(ROOT, 'media', 'brand') : path.join(ROOT, 'media', 'projects', slug);
     fs.mkdirSync(dir, { recursive: true });
     const out = path.join(dir, safeName);
     fs.writeFileSync(out, buf);
-    return sendJSON(res, 200, { ok: true, path: `/media/projects/${slug}/${safeName}` });
+    const prefix = brand ? '/media/brand' : `/media/projects/${slug}`;
+    return sendJSON(res, 200, { ok: true, path: `${prefix}/${safeName}` });
   }
 
   if (p.startsWith('/api/project/') && req.method === 'POST') {

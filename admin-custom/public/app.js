@@ -190,6 +190,24 @@ function readFileAsDataURL(file) {
   });
 }
 
+// 站点设置里的二维码：选图即上传到 /media/brand/，自动回填路径
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.qr-upload').forEach(inp => {
+    inp.addEventListener('change', async () => {
+      const file = inp.files[0]; if (!file) return;
+      const target = document.getElementById(inp.dataset.target);
+      inp.disabled = true;
+      try {
+        const dataUrl = await readFileAsDataURL(file);
+        const r = await apiPost('/api/upload', { brand: true, filename: file.name, data: dataUrl });
+        if (r.ok) target.value = r.path;
+        else alert('上传失败: ' + (r.error || '未知错误'));
+      } catch (e) { alert('上传失败: ' + e.message); }
+      inp.value = ''; inp.disabled = false;
+    });
+  });
+});
+
 // ---------- 保存项目 ----------
 $('#saveBtn').onclick = async () => {
   const btn = $('#saveBtn'); btn.disabled = true; const st = $('#saveStatus'); st.className = 'save-status'; st.textContent = '保存中…';
