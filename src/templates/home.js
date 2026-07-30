@@ -1,6 +1,8 @@
-const { esc, head, header, thumbUrl } = require('./util');
+const { esc, head, header, thumbUrl, contactFor } = require('./util');
 
-function renderHome(site, projects) {
+function renderHome(site, projects, contactKey) {
+  const c = contactFor(site, contactKey);
+  const cq = contactKey === 'b' ? '?c=b' : '';
   const kicker = esc(site.kicker);
   const titleLead = esc(site.titleLead);
   const titleEm = esc(site.titleEm);
@@ -10,7 +12,7 @@ function renderHome(site, projects) {
     if (!p) return '';
     const idx = String(i + 1).padStart(2, '0');
     return `<article class="project-card">
-<a href="/project/${slug}" aria-label="View ${esc(p.title)}">
+<a href="/project/${slug}${cq}" aria-label="View ${esc(p.title)}">
 <div class="project-card-media">
 <picture><img src="${esc(thumbUrl(p.cover))}" alt="${esc(p.title)} wedding design project cover" class="project-cover" loading="lazy" decoding="async"/></picture>
 <div class="project-shade"></div>
@@ -36,10 +38,10 @@ function renderHome(site, projects) {
 <div class="contact-grid">
 <div>
 <p class="eyebrow">Private commissions</p>
-<a class="contact-phone" href="tel:${esc(site.phoneTel)}">${esc(site.phone)}</a>
-<p class="contact-note">${esc(site.contactNote)}</p>
+<a class="contact-phone" href="tel:${esc(c.phoneTel)}">${esc(c.phone)}</a>
+<p class="contact-note">${esc(c.contactNote)}</p>
 </div>
-<img class="qr-code" src="${esc(site.wechatQr)}" alt="WeChat contact QR code" loading="lazy"/>
+<img class="qr-code" src="${esc(c.wechatQr)}" alt="WeChat contact QR code" loading="lazy"/>
 </div>
 <div class="logo-panel">
 <span class="logo-wordmark">SPRING<sup>®</sup></span>
@@ -59,7 +61,7 @@ ${head({
     ogImage: site.ogImage
   })}
 <body><main id="top" class="site-shell">
-${header('#')}
+${header(contactKey === 'b' ? '/home-b.html' : '#')}
 <section class="home-intro" aria-labelledby="intro-title">
 <p class="intro-kicker">${kicker}</p>
 <h1 id="intro-title">${titleLead}<em>${titleEm}</em></h1>

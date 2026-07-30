@@ -39,9 +39,9 @@ if (!fs.existsSync(path.join(BACKUP, 'index.html'))) {
   console.log('Backed up original HTML to _backup_html/');
 }
 
-// --- Render home ---
-const homeHtml = renderHome(site, projects);
-fs.writeFileSync(path.join(ROOT, 'index.html'), homeHtml, 'utf-8');
+// --- Render home (two personae: A = index.html, B = home-b.html) ---
+fs.writeFileSync(path.join(ROOT, 'index.html'), renderHome(site, projects, 'a'), 'utf-8');
+fs.writeFileSync(path.join(ROOT, 'home-b.html'), renderHome(site, projects, 'b'), 'utf-8');
 
 // --- Render projects ---
 let count = 0;
@@ -55,4 +55,4 @@ for (const slug of site.projects) {
   count++;
 }
 
-console.log(`Build complete: 1 home page + ${count} project pages.`);
+console.log(`Build complete: 2 home pages (index.html / home-b.html) + ${count} project pages.`);

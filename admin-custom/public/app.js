@@ -230,6 +230,10 @@ async function openSite() {
   $('#s_phoneTel').value = s.phoneTel || '';
   $('#s_contactNote').value = s.contactNote || '';
   $('#s_wechatQr').value = s.wechatQr || '';
+  $('#s_b_phone').value = (s.contactB && s.contactB.phone) || '';
+  $('#s_b_phoneTel').value = (s.contactB && s.contactB.phoneTel) || '';
+  $('#s_b_contactNote').value = (s.contactB && s.contactB.contactNote) || '';
+  $('#s_b_wechatQr').value = (s.contactB && s.contactB.wechatQr) || '';
   renderOrder();
 }
 function renderOrder() {
@@ -249,6 +253,12 @@ $('#siteSaveBtn').onclick = async () => {
   s.kicker = $('#s_kicker').value.trim(); s.titleLead = $('#s_titleLead').value.trim(); s.titleEm = $('#s_titleEm').value.trim();
   s.footerEyebrow = $('#s_footerEyebrow').value.trim(); s.footerTitle = $('#s_footerTitle').value.trim(); s.footerBody = $('#s_footerBody').value.trim();
   s.phone = $('#s_phone').value.trim(); s.phoneTel = $('#s_phoneTel').value.trim(); s.contactNote = $('#s_contactNote').value.trim(); s.wechatQr = $('#s_wechatQr').value.trim();
+  s.contactB = {
+    phone: $('#s_b_phone').value.trim(),
+    phoneTel: $('#s_b_phoneTel').value.trim(),
+    contactNote: $('#s_b_contactNote').value.trim(),
+    wechatQr: $('#s_b_wechatQr').value.trim()
+  };
   const btn = $('#siteSaveBtn'); btn.disabled = true; const st = $('#siteSaveStatus'); st.className = 'save-status'; st.textContent = '保存中…';
   try {
     await apiPost('/api/site', s);

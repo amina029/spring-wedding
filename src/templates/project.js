@@ -1,6 +1,7 @@
 const { esc, head, header, thumbUrl, galleryThumbUrl } = require('./util');
 
 function renderProject(p, site, projects) {
+  const bTel = JSON.stringify((site.contactB && site.contactB.phoneTel) || site.phoneTel);
   const order = site.projects;
   const idx = order.indexOf(p.slug);
   const nextIdx = (idx + 1) % order.length;
@@ -84,6 +85,28 @@ ${credits}
 ${nextSection}
 ${footer}
 </main>
+<script>
+(function(){
+  try{
+    var c = new URLSearchParams(location.search).get('c');
+    if(c !== 'b') return;
+    var bTel = ${bTel};
+    var tel = document.querySelector('a[href^="tel:"]');
+    if(tel && bTel){ tel.setAttribute('href','tel:'+bTel); }
+    var links = document.querySelectorAll('a[href^="/"]');
+    for(var i=0;i<links.length;i++){
+      var a=links[i]; var h=a.getAttribute('href');
+      if(h.indexOf('?c=')>=0) continue;
+      if(h.indexOf('/assets')===0||h.indexOf('/media')===0) continue;
+      var hashIdx=h.indexOf('#'); var path=h; var frag='';
+      if(hashIdx>=0){ frag=h.slice(hashIdx); path=h.slice(0,hashIdx); }
+      if(path===''||path==='/'){ path='/home-b.html'; }
+      else if(path!=='/home-b.html'){ path=path+'?c=b'; }
+      a.setAttribute('href', path+frag);
+    }
+  }catch(e){}
+})();
+</script>
 <script src="/assets/gallery-lightbox.js" defer></script>
 </body>
 </html>`;

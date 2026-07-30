@@ -26,6 +26,17 @@ function galleryThumbUrl(src) {
   return src.slice(0, i) + '.gthumb.webp';
 }
 
+// 选择联系方式：key 为 'b' 时用第二套(contactB)，否则用站点顶部默认(第一套)。
+function contactFor(site, key) {
+  if (key === 'b' && site.contactB) return site.contactB;
+  return {
+    phone: site.phone,
+    phoneTel: site.phoneTel,
+    contactNote: site.contactNote,
+    wechatQr: site.wechatQr
+  };
+}
+
 function head({ title, description, ogTitle, ogDesc, ogImage }) {
   const ogT = ogTitle || title;
   const ogD = ogDesc || description;
@@ -52,7 +63,8 @@ function head({ title, description, ogTitle, ogDesc, ogImage }) {
 }
 
 function header(navBase) {
-  return `<header class="site-header"><a href="/" class="brand" aria-label="SPRING home"><span>SPRING</span><sup>®</sup><span class="brand-line">— Private Wedding Design</span></a><nav aria-label="Primary navigation"><a href="${navBase}#work">Work</a><a href="${navBase}#info">Info</a></nav></header>`;
+  const brandHref = navBase === '#' ? '/' : navBase;
+  return `<header class="site-header"><a href="${brandHref}" class="brand" aria-label="SPRING home"><span>SPRING</span><sup>®</sup><span class="brand-line">— Private Wedding Design</span></a><nav aria-label="Primary navigation"><a href="${navBase}#work">Work</a><a href="${navBase}#info">Info</a></nav></header>`;
 }
 
-module.exports = { esc, head, header, thumbUrl, galleryThumbUrl };
+module.exports = { esc, head, header, thumbUrl, galleryThumbUrl, contactFor };
