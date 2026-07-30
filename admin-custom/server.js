@@ -161,8 +161,12 @@ async function handleApi(req, res, url) {
 
   if (p === '/api/token' && req.method === 'POST') {
     const body = JSON.parse(await readBody(req));
-    if (!body.token) return sendJSON(res, 400, { error: 'missing token' });
-    saveToken(body.token);
+    const t = (body.token || '').trim();
+    if (!t) return sendJSON(res, 400, { error: 'missing token' });
+    if (/\s/.test(t) || /https?:\/\//.test(t) || !/^(gh[pousr]_|github_pat_)/.test(t)) {
+      return sendJSON(res, 400, { error: 'token 格式不对：请只粘贴以 ghp_（或 github_pat_）开头的那串字符，不要带 http://、空格或别的文字' });
+    }
+    saveToken(t);
     return sendJSON(res, 200, { ok: true });
   }
   if (p === '/api/token/status' && req.method === 'GET') {
