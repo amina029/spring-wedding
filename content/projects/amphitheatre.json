@@ -133,7 +133,7 @@
     },
     {
       "gc": 3,
-      "count": 5,
+      "count": 4,
       "items": [
         {
           "src": "/media/projects/amphitheatre/gallery-12.png",
@@ -157,14 +157,6 @@
           "caption": [
             "Amphitheatre",
             "14"
-          ]
-        },
-        {
-          "src": "/media/projects/amphitheatre/gallery-15.jpg",
-          "alt": "Amphitheatre gallery 15",
-          "caption": [
-            "Amphitheatre",
-            "15"
           ]
         },
         {
