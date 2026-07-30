@@ -1,4 +1,4 @@
-const { esc, head, header } = require('./util');
+const { esc, head, header, thumbUrl } = require('./util');
 
 function renderProject(p, site, projects) {
   const order = site.projects;
@@ -28,7 +28,7 @@ function renderProject(p, site, projects) {
   const description = `${descParas}\n<p class="project-tone">${esc(p.tone)}</p>`;
 
   const nextImg = nextCover
-    ? `<picture><img src="${esc(nextCover)}" alt="${esc(np.title)} wedding design preview" loading="lazy" decoding="async"/></picture>`
+    ? `<picture><img src="${esc(thumbUrl(nextCover))}" alt="${esc(np.title)} wedding design preview" loading="lazy" decoding="async"/></picture>`
     : `<picture></picture>`;
   const nextSection = `<section class="next-project">
 <a href="/project/${nextSlug}">

@@ -1,5 +1,5 @@
 [build]
-  command = "node build.js"
+  command = "python3 tools/gen-cover-thumbs.py && node build.js"
   publish = "."
 
 [build.processing]

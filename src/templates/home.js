@@ -1,4 +1,4 @@
-const { esc, head, header } = require('./util');
+const { esc, head, header, thumbUrl } = require('./util');
 
 function renderHome(site, projects) {
   const kicker = esc(site.kicker);
@@ -12,7 +12,7 @@ function renderHome(site, projects) {
     return `<article class="project-card">
 <a href="/project/${slug}" aria-label="View ${esc(p.title)}">
 <div class="project-card-media">
-<picture><img src="${esc(p.cover)}" alt="${esc(p.title)} wedding design project cover" class="project-cover" loading="lazy" decoding="async"/></picture>
+<picture><img src="${esc(thumbUrl(p.cover))}" alt="${esc(p.title)} wedding design project cover" class="project-cover" loading="lazy" decoding="async"/></picture>
 <div class="project-shade"></div>
 <div class="project-card-copy">
 <h2>${esc(p.title)}</h2>
