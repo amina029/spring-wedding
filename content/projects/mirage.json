@@ -1,0 +1,101 @@
+{
+  "slug": "mirage",
+  "eyebrow": "Private Wedding Commission · Xi'an",
+  "title": "Mirage",
+  "statement": "An open-air ceremony where blue and pink light fold into a mirage on the horizon.",
+  "description": [
+    "Mirage sets an outdoor celebration beneath a shifting blue-pink sky. Light, drapery and florals dissolve the line between ground and air, leaving guests inside a living image."
+  ],
+  "tone": "Blue · Pink · Open air",
+  "cover": "/media/projects/mirage/cover.jpg",
+  "gallery": [
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/mirage/gallery-01.jpg",
+          "alt": "Mirage gallery 01",
+          "caption": ["Mirage", "01"]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/mirage/gallery-02.jpg",
+          "alt": "Mirage gallery 02",
+          "caption": ["Mirage", "02"]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/mirage/gallery-03.jpg",
+          "alt": "Mirage gallery 03",
+          "caption": ["Mirage", "03"]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/mirage/gallery-04.jpg",
+          "alt": "Mirage gallery 04",
+          "caption": ["Mirage", "04"]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/mirage/gallery-05.jpg",
+          "alt": "Mirage gallery 05",
+          "caption": ["Mirage", "05"]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/mirage/gallery-06.jpg",
+          "alt": "Mirage gallery 06",
+          "caption": ["Mirage", "06"]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/mirage/gallery-07.jpg",
+          "alt": "Mirage gallery 07",
+          "caption": ["Mirage", "07"]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/mirage/gallery-08.jpg",
+          "alt": "Mirage gallery 08",
+          "caption": ["Mirage", "08"]
+        }
+      ]
+    }
+  ]
+}
