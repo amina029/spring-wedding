@@ -37,7 +37,7 @@
     },
     {
       "gc": 3,
-      "count": 6,
+      "count": 3,
       "items": [
         {
           "src": "/media/projects/amphitheatre/gallery-03.png",
@@ -56,35 +56,11 @@
           ]
         },
         {
-          "src": "/media/projects/amphitheatre/gallery-05.jpg",
-          "alt": "Amphitheatre gallery 05",
-          "caption": [
-            "Amphitheatre",
-            "05"
-          ]
-        },
-        {
           "src": "/media/projects/amphitheatre/gallery-06.png",
           "alt": "Amphitheatre gallery 06",
           "caption": [
             "Amphitheatre",
             "06"
-          ]
-        },
-        {
-          "src": "/media/projects/amphitheatre/gallery-07.jpg",
-          "alt": "Amphitheatre gallery 07",
-          "caption": [
-            "Amphitheatre",
-            "07"
-          ]
-        },
-        {
-          "src": "/media/projects/amphitheatre/gallery-08.png",
-          "alt": "Amphitheatre gallery 08",
-          "caption": [
-            "Amphitheatre",
-            "08"
           ]
         }
       ]
