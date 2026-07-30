@@ -17,6 +17,15 @@ function thumbUrl(cover) {
   return cover.slice(0, i) + '.thumb.webp';
 }
 
+// 把画廊原图路径映射到轻量缩略图（页面显示用，省流量）。
+// /media/projects/x/gallery-01.png -> /media/projects/x/gallery-01.gthumb.webp
+function galleryThumbUrl(src) {
+  if (!src) return src;
+  const i = src.lastIndexOf('.');
+  if (i < 0) return src;
+  return src.slice(0, i) + '.gthumb.webp';
+}
+
 function head({ title, description, ogTitle, ogDesc, ogImage }) {
   const ogT = ogTitle || title;
   const ogD = ogDesc || description;
@@ -46,4 +55,4 @@ function header(navBase) {
   return `<header class="site-header"><a href="/" class="brand" aria-label="SPRING home"><span>SPRING</span><sup>®</sup><span class="brand-line">— Private Wedding Design</span></a><nav aria-label="Primary navigation"><a href="${navBase}#work">Work</a><a href="${navBase}#info">Info</a></nav></header>`;
 }
 
-module.exports = { esc, head, header, thumbUrl };
+module.exports = { esc, head, header, thumbUrl, galleryThumbUrl };

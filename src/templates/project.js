@@ -1,4 +1,4 @@
-const { esc, head, header, thumbUrl } = require('./util');
+const { esc, head, header, thumbUrl, galleryThumbUrl } = require('./util');
 
 function renderProject(p, site, projects) {
   const order = site.projects;
@@ -18,7 +18,7 @@ function renderProject(p, site, projects) {
 
   const gallery = p.gallery.map(g => {
     const items = g.items.map(it => `<figure class="gallery-item">
-<picture><img src="${esc(it.src)}" alt="${esc(it.alt)}" loading="lazy" decoding="async"/></picture>
+<picture><img src="${esc(galleryThumbUrl(it.src))}" alt="${esc(it.alt)}" loading="lazy" decoding="async"/></picture>
 <figcaption><span>${esc(it.caption[0] || '')}</span><span>${esc(it.caption[1] || '')}</span></figcaption>
 </figure>`).join('');
     return `<div class="gallery-group count-${g.count}" style="--gc:${g.gc}">${items}</div>`;

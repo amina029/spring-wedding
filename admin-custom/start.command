@@ -1,5 +1,10 @@
 #!/bin/bash
-DIR="$(cd "$(dirname "$0")" && pwd)"
+DIR="$(cd "$(dirname "$0")" && pwd)"     # admin-custom/
+ROOT="$(cd "$DIR/.." && pwd)"           # spring-wedding-git/
+cd "$ROOT"
+# 本地预览前确保缩略图存在（增量生成，已有则跳过，通常很快）
+python3 tools/gen-cover-thumbs.py >/dev/null 2>&1 || true
+python3 tools/gen-gallery-thumbs.py >/dev/null 2>&1 || true
 cd "$DIR"
 PORT=5055 nohup node admin-custom/server.js > /tmp/admin-custom.log 2>&1 &
 sleep 2
