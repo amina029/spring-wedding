@@ -1,4 +1,5 @@
 // Shared helpers for the static site build.
+const SITE_BASE = 'https://singular-pixie-8792b1.netlify.app';
 function esc(s) {
   return String(s == null ? '' : s)
     .replace(/&/g, '&amp;')
@@ -7,9 +8,11 @@ function esc(s) {
     .replace(/"/g, '&quot;');
 }
 
-function head({ title, description, ogTitle, ogDesc }) {
+function head({ title, description, ogTitle, ogDesc, ogImage }) {
   const ogT = ogTitle || title;
   const ogD = ogDesc || description;
+  let og = (ogImage && ogImage.trim()) ? ogImage.trim() : '/og.png';
+  if (og.startsWith('/')) og = SITE_BASE + og;
   return `<head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -19,14 +22,14 @@ function head({ title, description, ogTitle, ogDesc }) {
 <meta name="description" content="${esc(description)}"/>
 <meta property="og:title" content="${esc(ogT)}"/>
 <meta property="og:description" content="${esc(ogD)}"/>
-<meta property="og:image" content="/og.png"/>
+<meta property="og:image" content="${esc(og)}"/>
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="630"/>
 <meta property="og:image:alt" content="SPRING Private Wedding Design"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="${esc(ogT)}"/>
 <meta name="twitter:description" content="${esc(ogD)}"/>
-<meta name="twitter:image" content="/og.png"/>
+<meta name="twitter:image" content="${esc(og)}"/>
 </head>`;
 }
 

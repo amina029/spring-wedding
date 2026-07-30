@@ -55,7 +55,8 @@ ${head({
     title: 'SPRING — Private Wedding Design',
     description: 'SPRING creates one-of-one wedding environments through spatial design, floral art and cinematic direction.',
     ogTitle: 'SPRING — Private Wedding Design',
-    ogDesc: 'One-of-one environments for private celebrations.'
+    ogDesc: 'One-of-one environments for private celebrations.',
+    ogImage: site.ogImage
   })}
 <body><main id="top" class="site-shell">
 ${header('#')}

@@ -62,7 +62,8 @@ ${head({
     title: `${p.title} — SPRING`,
     description: metaDesc,
     ogTitle: 'SPRING — Private Wedding Design',
-    ogDesc: 'One-of-one environments for private celebrations.'
+    ogDesc: 'One-of-one environments for private celebrations.',
+    ogImage: p.cover
   })}
 <body><main id="top" class="site-shell project-page">
 ${header('/')}
