@@ -16,7 +16,10 @@
         {
           "src": "/media/projects/mirage/gallery-01.jpg",
           "alt": "Mirage gallery 01",
-          "caption": ["Mirage", "01"]
+          "caption": [
+            "Mirage",
+            "01"
+          ]
         }
       ]
     },
@@ -27,7 +30,10 @@
         {
           "src": "/media/projects/mirage/gallery-02.jpg",
           "alt": "Mirage gallery 02",
-          "caption": ["Mirage", "02"]
+          "caption": [
+            "Mirage",
+            "02"
+          ]
         }
       ]
     },
@@ -38,7 +44,10 @@
         {
           "src": "/media/projects/mirage/gallery-03.jpg",
           "alt": "Mirage gallery 03",
-          "caption": ["Mirage", "03"]
+          "caption": [
+            "Mirage",
+            "03"
+          ]
         }
       ]
     },
@@ -49,7 +58,10 @@
         {
           "src": "/media/projects/mirage/gallery-04.jpg",
           "alt": "Mirage gallery 04",
-          "caption": ["Mirage", "04"]
+          "caption": [
+            "Mirage",
+            "04"
+          ]
         }
       ]
     },
@@ -60,7 +72,10 @@
         {
           "src": "/media/projects/mirage/gallery-05.jpg",
           "alt": "Mirage gallery 05",
-          "caption": ["Mirage", "05"]
+          "caption": [
+            "Mirage",
+            "05"
+          ]
         }
       ]
     },
@@ -71,7 +86,10 @@
         {
           "src": "/media/projects/mirage/gallery-06.jpg",
           "alt": "Mirage gallery 06",
-          "caption": ["Mirage", "06"]
+          "caption": [
+            "Mirage",
+            "06"
+          ]
         }
       ]
     },
@@ -82,7 +100,10 @@
         {
           "src": "/media/projects/mirage/gallery-07.jpg",
           "alt": "Mirage gallery 07",
-          "caption": ["Mirage", "07"]
+          "caption": [
+            "Mirage",
+            "07"
+          ]
         }
       ]
     },
@@ -93,9 +114,16 @@
         {
           "src": "/media/projects/mirage/gallery-08.jpg",
           "alt": "Mirage gallery 08",
-          "caption": ["Mirage", "08"]
+          "caption": [
+            "Mirage",
+            "08"
+          ]
         }
       ]
     }
-  ]
+  ],
+  "film": {
+    "src": "/media/projects/mirage/film.mp4",
+    "poster": "/media/projects/mirage/gallery-01.jpg"
+  }
 }
