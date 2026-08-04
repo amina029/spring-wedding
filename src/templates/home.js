@@ -41,7 +41,7 @@ function renderHome(site, projects, contactKey) {
 <a class="contact-phone" href="tel:${esc(c.phoneTel)}">${esc(c.phone)}</a>
 <p class="contact-note">${esc(c.contactNote)}</p>
 </div>
-<img class="qr-code" src="${esc(c.wechatQr)}" alt="WeChat contact QR code" loading="lazy"/>
+<img class="qr-code" src="${esc(c.wechatQr)}" alt="WeChat contact QR code"/>
 </div>
 <div class="logo-panel">
 <span class="logo-wordmark">SPRING<sup>®</sup></span>
