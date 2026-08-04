@@ -291,6 +291,7 @@ const server = http.createServer((req, res) => {
 
   // 预览生成的页面
   if (p === '/preview-home') return serveFile(res, path.join(ROOT, 'index.html'));
+  if (p === '/preview-home-b') return serveFile(res, path.join(ROOT, 'home-b.html'));
   if (p.startsWith('/preview/')) {
     const slug = p.slice('/preview/'.length).replace(/\.html$/, '');
     return serveFile(res, path.join(ROOT, 'project', slug, 'index.html'));
