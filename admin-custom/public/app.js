@@ -34,8 +34,15 @@ async function loadList() {
     const card = document.createElement('div');
     card.className = 'card';
     const img = p.cover ? `<img class="thumb" src="${p.cover}" loading="lazy" onerror="this.style.opacity=.3"/>` : '<div class="thumb"></div>';
-    card.innerHTML = `${img}<div class="meta"><div class="t">${esc(p.title)}</div><div class="s">${esc(p.slug)}</div></div>`;
-    card.onclick = () => openProject(p.slug);
+    card.innerHTML = `${img}<div class="meta"><div class="t">${esc(p.title)}</div><div class="s">${esc(p.slug)}</div><button class="del-project" title="删除此案例">🗑 删除</button></div>`;
+    card.onclick = (e) => { if (e.target.closest('.del-project')) return; openProject(p.slug); };
+    card.querySelector('.del-project').onclick = async (e) => {
+      e.stopPropagation();
+      if (!confirm(`确定删除案例「${p.title}」？\n将移除该案例页面、媒体与首页顺序，并推送到 GitHub（不可恢复）。`)) return;
+      const r = await apiPost('/api/project-delete', { slug: p.slug });
+      if (r.ok) { toast(`已删除：${p.slug}`); loadList(); }
+      else toast('删除失败：' + (r.error || '未知错误'));
+    };
     grid.appendChild(card);
   }
 }

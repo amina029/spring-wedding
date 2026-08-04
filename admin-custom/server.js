@@ -221,6 +221,27 @@ async function handleApi(req, res, url) {
     return sendJSON(res, result.ok ? 200 : 500, result);
   }
 
+  if (p === '/api/project-delete' && req.method === 'POST') {
+    let body;
+    try { body = JSON.parse(await readBody(req)); } catch { return sendJSON(res, 400, { error: 'bad json' }); }
+    const slug = (body.slug || '').trim();
+    if (!/^[a-z0-9-]+$/i.test(slug)) return sendJSON(res, 400, { error: 'invalid slug' });
+    if (!fs.existsSync(projPath(slug))) return sendJSON(res, 404, { error: 'project not found' });
+    const result = await withLock(async () => {
+      // 1) 从站点顺序移除
+      const site = readJSON(path.join(ROOT, 'content', 'site.json'));
+      site.projects = (site.projects || []).filter(s => s !== slug);
+      fs.writeFileSync(path.join(ROOT, 'content', 'site.json'), JSON.stringify(site, null, 2) + '\n', 'utf-8');
+      // 2) 删内容 JSON
+      fs.unlinkSync(projPath(slug));
+      // 3) 删本地媒体与已生成 HTML 目录（GitHub 上的媒体成孤儿无害，不影响显示）
+      fs.rmSync(path.join(ROOT, 'media', 'projects', slug), { recursive: true, force: true });
+      fs.rmSync(path.join(ROOT, 'project', slug), { recursive: true, force: true });
+      return await commitAndPush(`editor: delete ${slug}`);
+    });
+    return sendJSON(res, result.ok ? 200 : 500, result);
+  }
+
   return sendJSON(res, 404, { error: 'unknown api' });
 }
 
