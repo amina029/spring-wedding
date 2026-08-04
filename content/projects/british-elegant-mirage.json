@@ -15,24 +15,8 @@
   "gallery": [
     {
       "gc": 3,
-      "count": 5,
+      "count": 4,
       "items": [
-        {
-          "src": "/media/projects/british-elegant-mirage/gallery-01.jpg",
-          "alt": "British Elegant Mirage gallery 01",
-          "caption": [
-            "British Elegant Mirage",
-            "01"
-          ]
-        },
-        {
-          "src": "/media/projects/british-elegant-mirage/gallery-02.jpg",
-          "alt": "British Elegant Mirage gallery 02",
-          "caption": [
-            "British Elegant Mirage",
-            "02"
-          ]
-        },
         {
           "src": "/media/projects/british-elegant-mirage/gallery-03.jpg",
           "alt": "British Elegant Mirage gallery 03",
@@ -47,6 +31,14 @@
           "caption": [
             "British Elegant Mirage",
             "04"
+          ]
+        },
+        {
+          "src": "/media/projects/british-elegant-mirage/gallery-02.jpg",
+          "alt": "British Elegant Mirage gallery 02",
+          "caption": [
+            "British Elegant Mirage",
+            "02"
           ]
         },
         {
