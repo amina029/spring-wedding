@@ -30,6 +30,7 @@ a{color:var(--brand-ink)}
 
 .view{padding:22px;max-width:1180px;margin:0 auto}
 .list-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+.list-actions{display:flex;gap:10px}
 .loading{color:var(--muted);padding:40px;text-align:center}
 
 .project-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}

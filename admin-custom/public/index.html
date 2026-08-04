@@ -22,7 +22,10 @@
 <section id="listView" class="view">
   <div class="list-head">
     <h1>项目</h1>
-    <button id="editSiteBtn" class="primary-btn">⚙ 站点设置</button>
+    <div class="list-actions">
+      <button id="addProjectBtn" class="primary-btn">+ 添加案例</button>
+      <button id="editSiteBtn" class="primary-btn">⚙ 站点设置</button>
+    </div>
   </div>
   <div id="projectGrid" class="project-grid"><div class="loading">加载中…</div></div>
 </section>
@@ -63,6 +66,8 @@
           <button class="add-btn" data-upload="cover">上传封面图</button>
           <hr/>
           <label>影片地址 (film.src)<input id="f_film_src" type="text" placeholder="可留空" /></label>
+          <input id="filmFile" type="file" accept="video/*" hidden />
+          <button class="add-btn" data-upload="film">上传影片</button>
           <label>影片海报 (film.poster)<input id="f_film_poster" type="text" placeholder="可留空" /></label>
         </div>
       </div>
@@ -125,6 +130,21 @@
     <div class="modal-actions">
       <button id="tokenSaveBtn" class="primary-btn">保存</button>
       <button id="tokenCloseBtn" class="ghost-btn">关闭</button>
+    </div>
+  </div>
+</div>
+
+<!-- 新建案例弹窗 -->
+<div id="createModal" class="modal hidden">
+  <div class="modal-box">
+    <h3>新建案例</h3>
+    <p class="hint">会生成一个空白项目，创建后可直接进入编辑，上传封面 / 填写描述 / 添加画廊。</p>
+    <label>案例名称 (title)<input id="newTitle" type="text" placeholder="如 Spring Garden Wedding" /></label>
+    <label>案例ID (slug，留空自动生成)<input id="newSlug" type="text" placeholder="如 spring-garden" /></label>
+    <div id="createStatus" class="hint"></div>
+    <div class="modal-actions">
+      <button id="createConfirmBtn" class="primary-btn">创建</button>
+      <button id="createCloseBtn" class="ghost-btn">取消</button>
     </div>
   </div>
 </div>

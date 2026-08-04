@@ -66,7 +66,7 @@ function serveFile(res, filePath, forceType) {
     res.end(data);
   });
 }
-function readBody(req, limit = 30 * 1024 * 1024) {
+function readBody(req, limit = 100 * 1024 * 1024) {
   return new Promise((resolve, reject) => {
     let size = 0; const chunks = [];
     req.on('data', c => {
@@ -124,8 +124,8 @@ async function commitAndPush(message) {
       else res(so);
     });
   });
-  // 2) 暂存（只加内容源与构建产物，避免误带编辑器自身 / 备份目录）
-  await git(['add', 'content', 'index.html', 'project']);
+  // 2) 暂存（内容源、构建产物、上传的媒体；避免误带编辑器自身 / 备份目录）
+  await git(['add', 'content', 'index.html', 'project', 'media']);
   // 3) 提交（若无可提交内容则跳过）
   const status = await git(['status', '--porcelain']);
   if (!status.trim()) return { ok: true, committed: false, pushed: false, message: '没有变动' };
@@ -240,6 +240,42 @@ async function handleApi(req, res, url) {
       return await commitAndPush(`editor: delete ${slug}`);
     });
     return sendJSON(res, result.ok ? 200 : 500, result);
+  }
+
+  if (p === '/api/project-create' && req.method === 'POST') {
+    let body;
+    try { body = JSON.parse(await readBody(req)); } catch { return sendJSON(res, 400, { error: 'bad json' }); }
+    const title = (body.title || '').trim();
+    if (!title) return sendJSON(res, 400, { error: '请填写案例名称' });
+    let slug = (body.slug || '').trim().toLowerCase();
+    if (!slug) {
+      const base = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 40);
+      slug = base || ('case-' + Date.now());
+    } else {
+      slug = slug.replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+    }
+    if (!/^[a-z0-9-]+$/.test(slug)) return sendJSON(res, 400, { error: '案例ID只能包含字母、数字和连字符（建议用英文/拼音）' });
+    if (fs.existsSync(projPath(slug))) return sendJSON(res, 409, { error: '该案例ID已存在，请换一个' });
+    const result = await withLock(async () => {
+      const proj = {
+        slug,
+        eyebrow: '',
+        title,
+        statement: '',
+        description: [],
+        tone: '',
+        cover: '',
+        gallery: []
+      };
+      fs.writeFileSync(projPath(slug), JSON.stringify(proj, null, 2) + '\n', 'utf-8');
+      const site = readJSON(path.join(ROOT, 'content', 'site.json'));
+      site.projects = site.projects || [];
+      site.projects.push(slug);
+      fs.writeFileSync(path.join(ROOT, 'content', 'site.json'), JSON.stringify(site, null, 2) + '\n', 'utf-8');
+      return await commitAndPush(`editor: create ${slug}`);
+    });
+    if (!result.ok) return sendJSON(res, 500, result);
+    return sendJSON(res, 200, { ok: true, slug, ...result });
   }
 
   return sendJSON(res, 404, { error: 'unknown api' });

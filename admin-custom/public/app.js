@@ -240,6 +240,18 @@ $('#coverFile').onchange = async () => {
 };
 document.querySelector('[data-upload="cover"]').onclick = () => $('#coverFile').click();
 
+// 影片上传
+$('#filmFile').onchange = async () => {
+  const f = $('#filmFile').files[0]; if (!f) return;
+  try { toast('上传影片中…'); const d = await uploadFile(state.current.slug, f);
+    $('#f_film_src').value = d.path;
+    const g0 = state.current.gallery && state.current.gallery[0] && state.current.gallery[0].items[0];
+    if (!($('#f_film_poster').value || '').trim() && g0) $('#f_film_poster').value = g0.src;
+    toast('影片已更新'); }
+  catch (e) { toast('上传失败：' + e.message); }
+};
+document.querySelector('[data-upload="film"]').onclick = () => $('#filmFile').click();
+
 // ---------- 站点设置 ----------
 async function openSite() {
   show('#siteView');
@@ -311,6 +323,29 @@ $('#tokenSaveBtn').onclick = async () => {
 $('#backBtn').onclick = () => show('#listView');
 $('#siteBackBtn').onclick = () => show('#listView');
 $('#editSiteBtn').onclick = openSite;
+
+// ---------- 新建案例 ----------
+$('#addProjectBtn').onclick = () => {
+  $('#newTitle').value = ''; $('#newSlug').value = ''; $('#createStatus').textContent = '';
+  $('#createModal').classList.remove('hidden'); $('#newTitle').focus();
+};
+$('#createCloseBtn').onclick = () => $('#createModal').classList.add('hidden');
+$('#createConfirmBtn').onclick = async () => {
+  const title = $('#newTitle').value.trim();
+  const slug = $('#newSlug').value.trim();
+  if (!title) { $('#createStatus').textContent = '请填写案例名称'; return; }
+  const btn = $('#createConfirmBtn'); btn.disabled = true; $('#createStatus').textContent = '创建中…';
+  try {
+    const r = await apiPost('/api/project-create', { title, slug });
+    $('#createModal').classList.add('hidden');
+    toast(`已创建案例：${r.slug}`);
+    await loadList();
+    openProject(r.slug);
+  } catch (e) {
+    $('#createStatus').textContent = '创建失败：' + e.message;
+    btn.disabled = false;
+  }
+};
 
 // ---------- 工具 ----------
 function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
