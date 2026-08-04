@@ -1,7 +1,7 @@
 'use strict';
 
 const $ = sel => document.querySelector(sel);
-const state = { current: null, site: null };
+const state = { current: null, site: null, list: [] };
 
 // ---------- API ----------
 async function apiGet(p) {
@@ -26,16 +26,22 @@ function show(view) {
 }
 
 // ---------- 项目列表 ----------
+let cardDragSlug = null;
 async function loadList() {
   $('#projectGrid').innerHTML = '<div class="loading">加载中…</div>';
   const data = await apiGet('/api/projects');
+  state.list = (data.projects || []).slice(); // 已按 site.json 顺序
+  renderCards();
+}
+function renderCards() {
   const grid = $('#projectGrid'); grid.innerHTML = '';
-  for (const p of data.projects) {
+  for (const p of state.list) {
     const card = document.createElement('div');
     card.className = 'card';
-    const img = p.cover ? `<img class="thumb" src="${p.cover}" loading="lazy" onerror="this.style.opacity=.3"/>` : '<div class="thumb"></div>';
-    card.innerHTML = `${img}<div class="meta"><div class="t">${esc(p.title)}</div><div class="s">${esc(p.slug)}</div><button class="del-project" title="删除此案例">🗑 删除</button></div>`;
-    card.onclick = (e) => { if (e.target.closest('.del-project')) return; openProject(p.slug); };
+    card.draggable = true;
+    const img = p.cover ? `<img class="thumb" src="${esc(p.cover)}" loading="lazy" onerror="this.style.opacity=.3"/>` : '<div class="thumb"></div>';
+    card.innerHTML = `<span class="grip" title="拖动排序">⠿</span>${img}<div class="meta"><div class="t">${esc(p.title)}</div><div class="s">${esc(p.slug)}</div><button class="del-project" title="删除此案例">🗑 删除</button></div>`;
+    card.onclick = (e) => { if (e.target.closest('.del-project') || e.target.closest('.grip')) return; openProject(p.slug); };
     card.querySelector('.del-project').onclick = async (e) => {
       e.stopPropagation();
       if (!confirm(`确定删除案例「${p.title}」？\n将移除该案例页面、媒体与首页顺序，并推送到 GitHub（不可恢复）。`)) return;
@@ -43,8 +49,35 @@ async function loadList() {
       if (r.ok) { toast(`已删除：${p.slug}`); loadList(); }
       else toast('删除失败：' + (r.error || '未知错误'));
     };
+    // 拖拽排序
+    card.addEventListener('dragstart', (e) => {
+      cardDragSlug = p.slug;
+      card.classList.add('dragging');
+      e.dataTransfer.effectAllowed = 'move';
+      try { e.dataTransfer.setData('text/plain', p.slug); } catch {}
+    });
+    card.addEventListener('dragend', () => { card.classList.remove('dragging'); cardDragSlug = null; });
+    card.addEventListener('dragover', (e) => { e.preventDefault(); card.classList.add('drag-over'); });
+    card.addEventListener('dragleave', () => { card.classList.remove('drag-over'); });
+    card.addEventListener('drop', (e) => {
+      e.preventDefault(); card.classList.remove('drag-over');
+      const from = cardDragSlug, to = p.slug;
+      if (from && to && from !== to) reorderCards(from, to);
+    });
     grid.appendChild(card);
   }
+}
+function reorderCards(from, to) {
+  const arr = state.list;
+  const fi = arr.findIndex(x => x.slug === from);
+  const ti = arr.findIndex(x => x.slug === to);
+  if (fi < 0 || ti < 0) return;
+  const [moved] = arr.splice(fi, 1);
+  arr.splice(ti, 0, moved);
+  renderCards();
+  apiPost('/api/reorder', { order: arr.map(x => x.slug) })
+    .then(r => { if (r && r.ok) toast('✅ 排序已保存'); else toast('排序已调整，但保存失败：' + ((r && r.error) || '未知错误')); })
+    .catch(e => toast('排序已调整，但保存失败：' + e.message));
 }
 
 // ---------- 打开项目 ----------

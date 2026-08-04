@@ -43,6 +43,13 @@ a{color:var(--brand-ink)}
 .card .meta .s{color:var(--muted);font-size:12px;word-break:break-all}
 .card .del-project{margin-top:8px;width:100%;padding:6px 0;border:1px solid #e3b4b4;background:#fdf3f3;color:#b23b3b;border-radius:8px;font-size:12px;cursor:pointer}
 .card .del-project:hover{background:#fbe3e3}
+.card{position:relative}
+.card .grip{position:absolute;top:7px;left:7px;z-index:3;width:24px;height:24px;border-radius:6px;
+  background:rgba(0,0,0,.42);color:#fff;display:flex;align-items:center;justify-content:center;
+  font-size:15px;line-height:1;cursor:grab;user-select:none;backdrop-filter:blur(2px)}
+.card .grip:active{cursor:grabbing}
+.card.dragging{opacity:.4}
+.card.drag-over{outline:2px dashed var(--brand);outline-offset:-3px}
 
 .editor-head{display:flex;align-items:center;gap:14px;margin-bottom:14px;flex-wrap:wrap}
 .editor-head h2{flex:1;font-size:20px}
@@ -50,6 +57,7 @@ a{color:var(--brand-ink)}
 .save-status{min-height:20px;margin-bottom:12px;font-size:13px}
 .save-status.ok{color:var(--accent)}
 .save-status.err{color:var(--danger)}
+.list-tip{color:var(--muted);font-size:12px;margin:10px 2px 0}
 
 .editor-body{display:grid;grid-template-columns:1fr 1.2fr;gap:20px}
 @media(max-width:900px){.editor-body{grid-template-columns:1fr}}

@@ -278,6 +278,27 @@ async function handleApi(req, res, url) {
     return sendJSON(res, 200, { ok: true, slug, ...result });
   }
 
+  if (p === '/api/reorder' && req.method === 'POST') {
+    let body;
+    try { body = JSON.parse(await readBody(req)); } catch { return sendJSON(res, 400, { error: 'bad json' }); }
+    const order = body.order;
+    if (!Array.isArray(order) || !order.every(s => typeof s === 'string'))
+      return sendJSON(res, 400, { error: 'order 必须是 slug 字符串数组' });
+    const result = await withLock(async () => {
+      const sitePath = path.join(ROOT, 'content', 'site.json');
+      const site = readJSON(sitePath);
+      const existing = site.projects || [];
+      const have = new Set(existing);
+      // 以提交顺序为准：过滤掉已不存在的，再补回遗漏的（理论上不会发生）
+      const next = order.filter(s => have.has(s));
+      for (const s of existing) if (!next.includes(s)) next.push(s);
+      site.projects = next;
+      fs.writeFileSync(sitePath, JSON.stringify(site, null, 2) + '\n', 'utf-8');
+      return await commitAndPush('editor: reorder projects');
+    });
+    return sendJSON(res, result.ok ? 200 : 500, result);
+  }
+
   return sendJSON(res, 404, { error: 'unknown api' });
 }
 
