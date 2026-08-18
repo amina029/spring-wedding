@@ -1,5 +1,5 @@
 // Shared helpers for the static site build.
-const SITE_BASE = 'https://singular-pixie-8792b1.netlify.app';
+const SITE_BASE = 'https://k6ufaq.cn';
 function esc(s) {
   return String(s == null ? '' : s)
     .replace(/&/g, '&amp;')
