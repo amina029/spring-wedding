@@ -1,5 +1,5 @@
 // Shared helpers for the static site build.
-const SITE_BASE = 'https://ca.k6ufaq.cn';
+const SITE_BASE = 'https://ca.oditkze.cn';
 function esc(s) {
   return String(s == null ? '' : s)
     .replace(/&/g, '&amp;')
