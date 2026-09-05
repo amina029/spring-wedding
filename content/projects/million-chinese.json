@@ -1,0 +1,145 @@
+{
+  "slug": "million-chinese",
+  "eyebrow": "Private Wedding Commission",
+  "title": "Million Chinese",
+  "statement": "A one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered.",
+  "description": [
+    "A one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Bespoke · Cinematic · Tailored",
+  "cover": "/media/projects/million-chinese/gallery-01.jpg",
+  "gallery": [
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/million-chinese/gallery-01.jpg",
+          "alt": "Million Chinese gallery 01",
+          "caption": [
+            "Million Chinese",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/million-chinese/gallery-02.jpg",
+          "alt": "Million Chinese gallery 02",
+          "caption": [
+            "Million Chinese",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/million-chinese/gallery-03.jpg",
+          "alt": "Million Chinese gallery 03",
+          "caption": [
+            "Million Chinese",
+            "03"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 2,
+      "count": 2,
+      "items": [
+        {
+          "src": "/media/projects/million-chinese/gallery-04.jpg",
+          "alt": "Million Chinese gallery 04",
+          "caption": [
+            "Million Chinese",
+            "04"
+          ]
+        },
+        {
+          "src": "/media/projects/million-chinese/gallery-05.jpg",
+          "alt": "Million Chinese gallery 05",
+          "caption": [
+            "Million Chinese",
+            "05"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/million-chinese/gallery-06.jpg",
+          "alt": "Million Chinese gallery 06",
+          "caption": [
+            "Million Chinese",
+            "06"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 7,
+      "items": [
+        {
+          "src": "/media/projects/million-chinese/gallery-07.jpg",
+          "alt": "Million Chinese gallery 07",
+          "caption": [
+            "Million Chinese",
+            "07"
+          ]
+        },
+        {
+          "src": "/media/projects/million-chinese/gallery-08.jpg",
+          "alt": "Million Chinese gallery 08",
+          "caption": [
+            "Million Chinese",
+            "08"
+          ]
+        },
+        {
+          "src": "/media/projects/million-chinese/gallery-09.jpg",
+          "alt": "Million Chinese gallery 09",
+          "caption": [
+            "Million Chinese",
+            "09"
+          ]
+        },
+        {
+          "src": "/media/projects/million-chinese/gallery-10.jpg",
+          "alt": "Million Chinese gallery 10",
+          "caption": [
+            "Million Chinese",
+            "10"
+          ]
+        },
+        {
+          "src": "/media/projects/million-chinese/gallery-11.jpg",
+          "alt": "Million Chinese gallery 11",
+          "caption": [
+            "Million Chinese",
+            "11"
+          ]
+        },
+        {
+          "src": "/media/projects/million-chinese/gallery-12.jpg",
+          "alt": "Million Chinese gallery 12",
+          "caption": [
+            "Million Chinese",
+            "12"
+          ]
+        },
+        {
+          "src": "/media/projects/million-chinese/gallery-13.jpg",
+          "alt": "Million Chinese gallery 13",
+          "caption": [
+            "Million Chinese",
+            "13"
+          ]
+        }
+      ]
+    }
+  ],
+  "film": {
+    "src": "/media/projects/million-chinese/film.mp4",
+    "poster": "/media/projects/million-chinese/gallery-01.jpg"
+  }
+}

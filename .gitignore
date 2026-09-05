@@ -1,6 +1,7 @@
 .DS_Store
 Thumbs.db
 .gitignore
+poster-*.jpg
 admin-custom/.env
 admin-custom/node_modules
 _backup_html/

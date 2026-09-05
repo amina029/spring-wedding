@@ -1,0 +1,143 @@
+{
+  "slug": "galaxy",
+  "eyebrow": "W Hotel",
+  "title": "Galaxy",
+  "statement": "Galaxy — a one-of-one celebration.",
+  "description": [
+    "Describe Galaxy here."
+  ],
+  "tone": "Starry Blue",
+  "cover": "/media/projects/galaxy/cover.jpg",
+  "gallery": [
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/galaxy/gallery-01.jpg",
+          "alt": "Galaxy gallery 01",
+          "caption": [
+            "Galaxy",
+            "01"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/galaxy/gallery-02.jpg",
+          "alt": "Galaxy gallery 02",
+          "caption": [
+            "Galaxy",
+            "02"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/galaxy/gallery-03.jpg",
+          "alt": "Galaxy gallery 03",
+          "caption": [
+            "Galaxy",
+            "03"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/galaxy/gallery-04.jpg",
+          "alt": "Galaxy gallery 04",
+          "caption": [
+            "Galaxy",
+            "04"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/galaxy/gallery-05.jpg",
+          "alt": "Galaxy gallery 05",
+          "caption": [
+            "Galaxy",
+            "05"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/galaxy/gallery-06.jpg",
+          "alt": "Galaxy gallery 06",
+          "caption": [
+            "Galaxy",
+            "06"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/galaxy/gallery-07.jpg",
+          "alt": "Galaxy gallery 07",
+          "caption": [
+            "Galaxy",
+            "07"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/galaxy/gallery-08.jpg",
+          "alt": "Galaxy gallery 08",
+          "caption": [
+            "Galaxy",
+            "08"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/galaxy/gallery-09.jpg",
+          "alt": "Galaxy gallery 09",
+          "caption": [
+            "Galaxy",
+            "09"
+          ]
+        }
+      ]
+    }
+  ],
+  "film": {
+    "src": "/media/projects/galaxy/film.mp4",
+    "poster": "/media/projects/galaxy/cover.jpg"
+  }
+}

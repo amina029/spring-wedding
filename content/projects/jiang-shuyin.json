@@ -1,0 +1,143 @@
+{
+  "slug": "jiang-shuyin",
+  "eyebrow": "Private Wedding Commission",
+  "title": "Jiang Shuyin",
+  "statement": "A one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered.",
+  "description": [
+    "A one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Bespoke · Cinematic · Tailored",
+  "cover": "/media/projects/jiang-shuyin/cover.jpg",
+  "gallery": [
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/jiang-shuyin/gallery-01.jpg",
+          "alt": "Jiang Shuyin gallery 01",
+          "caption": [
+            "Jiang Shuyin",
+            "01"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/jiang-shuyin/gallery-02.jpg",
+          "alt": "Jiang Shuyin gallery 02",
+          "caption": [
+            "Jiang Shuyin",
+            "02"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/jiang-shuyin/gallery-03.jpg",
+          "alt": "Jiang Shuyin gallery 03",
+          "caption": [
+            "Jiang Shuyin",
+            "03"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/jiang-shuyin/gallery-04.jpg",
+          "alt": "Jiang Shuyin gallery 04",
+          "caption": [
+            "Jiang Shuyin",
+            "04"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/jiang-shuyin/gallery-05.jpg",
+          "alt": "Jiang Shuyin gallery 05",
+          "caption": [
+            "Jiang Shuyin",
+            "05"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/jiang-shuyin/gallery-06.jpg",
+          "alt": "Jiang Shuyin gallery 06",
+          "caption": [
+            "Jiang Shuyin",
+            "06"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/jiang-shuyin/gallery-07.jpg",
+          "alt": "Jiang Shuyin gallery 07",
+          "caption": [
+            "Jiang Shuyin",
+            "07"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/jiang-shuyin/gallery-08.jpg",
+          "alt": "Jiang Shuyin gallery 08",
+          "caption": [
+            "Jiang Shuyin",
+            "08"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/jiang-shuyin/gallery-09.jpg",
+          "alt": "Jiang Shuyin gallery 09",
+          "caption": [
+            "Jiang Shuyin",
+            "09"
+          ]
+        }
+      ]
+    }
+  ],
+  "film": {
+    "src": "/media/projects/jiang-shuyin/film.mp4",
+    "poster": "/media/projects/jiang-shuyin/cover.jpg"
+  }
+}

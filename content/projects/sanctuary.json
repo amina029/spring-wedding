@@ -1,0 +1,157 @@
+{
+  "slug": "sanctuary",
+  "eyebrow": "Ningbo",
+  "title": "Sanctuary",
+  "statement": "Sanctuary — a one-of-one celebration.",
+  "description": [
+    "Describe Sanctuary here."
+  ],
+  "tone": "White & Green",
+  "cover": "/media/projects/sanctuary/cover.jpg",
+  "gallery": [
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/sanctuary/gallery-01.jpg",
+          "alt": "Sanctuary gallery 01",
+          "caption": [
+            "Sanctuary",
+            "01"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/sanctuary/gallery-02.jpg",
+          "alt": "Sanctuary gallery 02",
+          "caption": [
+            "Sanctuary",
+            "02"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/sanctuary/gallery-03.jpg",
+          "alt": "Sanctuary gallery 03",
+          "caption": [
+            "Sanctuary",
+            "03"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/sanctuary/gallery-04.jpg",
+          "alt": "Sanctuary gallery 04",
+          "caption": [
+            "Sanctuary",
+            "04"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/sanctuary/gallery-05.jpg",
+          "alt": "Sanctuary gallery 05",
+          "caption": [
+            "Sanctuary",
+            "05"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/sanctuary/gallery-06.jpg",
+          "alt": "Sanctuary gallery 06",
+          "caption": [
+            "Sanctuary",
+            "06"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/sanctuary/gallery-07.jpg",
+          "alt": "Sanctuary gallery 07",
+          "caption": [
+            "Sanctuary",
+            "07"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/sanctuary/gallery-08.jpg",
+          "alt": "Sanctuary gallery 08",
+          "caption": [
+            "Sanctuary",
+            "08"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/sanctuary/gallery-09.jpg",
+          "alt": "Sanctuary gallery 09",
+          "caption": [
+            "Sanctuary",
+            "09"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/sanctuary/gallery-10.jpg",
+          "alt": "Sanctuary gallery 10",
+          "caption": [
+            "Sanctuary",
+            "10"
+          ]
+        }
+      ]
+    }
+  ],
+  "film": {
+    "src": "/media/projects/sanctuary/film.mp4",
+    "poster": "/media/projects/sanctuary/cover.jpg"
+  }
+}

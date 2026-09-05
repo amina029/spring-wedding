@@ -1,0 +1,87 @@
+{
+  "slug": "korean-banquet",
+  "eyebrow": "Private Wedding Commission",
+  "title": "Korean Banquet",
+  "statement": "A private celebration shaped as a living image.",
+  "description": [
+    "Korean Banquet is a one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Korean · Banquet · Elegant",
+  "cover": "/media/projects/korean-banquet/gallery-01.jpg",
+  "gallery": [
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/korean-banquet/gallery-01.jpg",
+          "alt": "Korean Banquet gallery 01",
+          "caption": [
+            "Korean Banquet",
+            "01"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/korean-banquet/gallery-02.jpg",
+          "alt": "Korean Banquet gallery 02",
+          "caption": [
+            "Korean Banquet",
+            "02"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/korean-banquet/gallery-03.jpg",
+          "alt": "Korean Banquet gallery 03",
+          "caption": [
+            "Korean Banquet",
+            "03"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/korean-banquet/gallery-04.jpg",
+          "alt": "Korean Banquet gallery 04",
+          "caption": [
+            "Korean Banquet",
+            "04"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/korean-banquet/gallery-05.jpg",
+          "alt": "Korean Banquet gallery 05",
+          "caption": [
+            "Korean Banquet",
+            "05"
+          ]
+        }
+      ]
+    }
+  ],
+  "film": {
+    "src": "/media/projects/korean-banquet/film.mp4",
+    "poster": "/media/projects/korean-banquet/gallery-01.jpg"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "slug": "gilded-rhapsody",
+  "eyebrow": "Private Wedding Commission",
+  "title": "Gilded Rhapsody",
+  "statement": "A one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered.",
+  "description": [
+    "A one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Bespoke · Cinematic · Tailored",
+  "cover": "/media/projects/gilded-rhapsody/gallery-01.jpg",
+  "gallery": [
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/gilded-rhapsody/gallery-01.jpg",
+          "alt": "Gilded Rhapsody gallery 01",
+          "caption": [
+            "Gilded Rhapsody",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/gilded-rhapsody/gallery-02.jpg",
+          "alt": "Gilded Rhapsody gallery 02",
+          "caption": [
+            "Gilded Rhapsody",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/gilded-rhapsody/gallery-03.jpg",
+          "alt": "Gilded Rhapsody gallery 03",
+          "caption": [
+            "Gilded Rhapsody",
+            "03"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 2,
+      "count": 2,
+      "items": [
+        {
+          "src": "/media/projects/gilded-rhapsody/gallery-04.jpg",
+          "alt": "Gilded Rhapsody gallery 04",
+          "caption": [
+            "Gilded Rhapsody",
+            "04"
+          ]
+        },
+        {
+          "src": "/media/projects/gilded-rhapsody/gallery-05.jpg",
+          "alt": "Gilded Rhapsody gallery 05",
+          "caption": [
+            "Gilded Rhapsody",
+            "05"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/gilded-rhapsody/gallery-06.jpg",
+          "alt": "Gilded Rhapsody gallery 06",
+          "caption": [
+            "Gilded Rhapsody",
+            "06"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/gilded-rhapsody/gallery-07.jpg",
+          "alt": "Gilded Rhapsody gallery 07",
+          "caption": [
+            "Gilded Rhapsody",
+            "07"
+          ]
+        },
+        {
+          "src": "/media/projects/gilded-rhapsody/gallery-08.jpg",
+          "alt": "Gilded Rhapsody gallery 08",
+          "caption": [
+            "Gilded Rhapsody",
+            "08"
+          ]
+        },
+        {
+          "src": "/media/projects/gilded-rhapsody/gallery-09.jpg",
+          "alt": "Gilded Rhapsody gallery 09",
+          "caption": [
+            "Gilded Rhapsody",
+            "09"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 2,
+      "count": 2,
+      "items": [
+        {
+          "src": "/media/projects/gilded-rhapsody/gallery-10.jpg",
+          "alt": "Gilded Rhapsody gallery 10",
+          "caption": [
+            "Gilded Rhapsody",
+            "10"
+          ]
+        },
+        {
+          "src": "/media/projects/gilded-rhapsody/gallery-11.jpg",
+          "alt": "Gilded Rhapsody gallery 11",
+          "caption": [
+            "Gilded Rhapsody",
+            "11"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/gilded-rhapsody/gallery-12.jpg",
+          "alt": "Gilded Rhapsody gallery 12",
+          "caption": [
+            "Gilded Rhapsody",
+            "12"
+          ]
+        }
+      ]
+    }
+  ],
+  "film": {
+    "src": "/media/projects/gilded-rhapsody/film.mp4",
+    "poster": "/media/projects/gilded-rhapsody/gallery-01.jpg"
+  }
+}

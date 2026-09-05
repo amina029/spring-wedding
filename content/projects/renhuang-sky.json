@@ -1,0 +1,127 @@
+{
+  "slug": "renhuang-sky",
+  "eyebrow": "Private Wedding Commission",
+  "title": "Renhuang SKY",
+  "statement": "A one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered.",
+  "description": [
+    "A one-of-one wedding environment created by SPRING — personal, cinematic and made to be remembered."
+  ],
+  "tone": "Bespoke · Cinematic · Tailored",
+  "cover": "/media/projects/renhuang-sky/cover.jpg",
+  "gallery": [
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/renhuang-sky/gallery-01.jpg",
+          "alt": "Renhuang SKY gallery 01",
+          "caption": [
+            "Renhuang SKY",
+            "01"
+          ]
+        },
+        {
+          "src": "/media/projects/renhuang-sky/gallery-02.jpg",
+          "alt": "Renhuang SKY gallery 02",
+          "caption": [
+            "Renhuang SKY",
+            "02"
+          ]
+        },
+        {
+          "src": "/media/projects/renhuang-sky/gallery-03.jpg",
+          "alt": "Renhuang SKY gallery 03",
+          "caption": [
+            "Renhuang SKY",
+            "03"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 2,
+      "count": 2,
+      "items": [
+        {
+          "src": "/media/projects/renhuang-sky/gallery-04.jpg",
+          "alt": "Renhuang SKY gallery 04",
+          "caption": [
+            "Renhuang SKY",
+            "04"
+          ]
+        },
+        {
+          "src": "/media/projects/renhuang-sky/gallery-05.jpg",
+          "alt": "Renhuang SKY gallery 05",
+          "caption": [
+            "Renhuang SKY",
+            "05"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/renhuang-sky/gallery-06.jpg",
+          "alt": "Renhuang SKY gallery 06",
+          "caption": [
+            "Renhuang SKY",
+            "06"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 3,
+      "count": 3,
+      "items": [
+        {
+          "src": "/media/projects/renhuang-sky/gallery-07.jpg",
+          "alt": "Renhuang SKY gallery 07",
+          "caption": [
+            "Renhuang SKY",
+            "07"
+          ]
+        },
+        {
+          "src": "/media/projects/renhuang-sky/gallery-08.jpg",
+          "alt": "Renhuang SKY gallery 08",
+          "caption": [
+            "Renhuang SKY",
+            "08"
+          ]
+        },
+        {
+          "src": "/media/projects/renhuang-sky/gallery-09.jpg",
+          "alt": "Renhuang SKY gallery 09",
+          "caption": [
+            "Renhuang SKY",
+            "09"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/renhuang-sky/gallery-10.jpg",
+          "alt": "Renhuang SKY gallery 10",
+          "caption": [
+            "Renhuang SKY",
+            "10"
+          ]
+        }
+      ]
+    }
+  ],
+  "film": {
+    "src": "/media/projects/renhuang-sky/film.mp4",
+    "poster": "/media/projects/renhuang-sky/cover.jpg"
+  }
+}

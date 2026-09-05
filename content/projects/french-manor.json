@@ -1,0 +1,101 @@
+{
+  "slug": "french-manor",
+  "eyebrow": "Manor",
+  "title": "French Manor",
+  "statement": "French Manor — a one-of-one celebration.",
+  "description": [
+    "Describe French Manor here."
+  ],
+  "tone": "White & Green",
+  "cover": "/media/projects/french-manor/cover.jpg",
+  "gallery": [
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/french-manor/gallery-01.jpg",
+          "alt": "French Manor gallery 01",
+          "caption": [
+            "French Manor",
+            "01"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/french-manor/gallery-02.jpg",
+          "alt": "French Manor gallery 02",
+          "caption": [
+            "French Manor",
+            "02"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/french-manor/gallery-03.jpg",
+          "alt": "French Manor gallery 03",
+          "caption": [
+            "French Manor",
+            "03"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/french-manor/gallery-04.jpg",
+          "alt": "French Manor gallery 04",
+          "caption": [
+            "French Manor",
+            "04"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/french-manor/gallery-05.jpg",
+          "alt": "French Manor gallery 05",
+          "caption": [
+            "French Manor",
+            "05"
+          ]
+        }
+      ]
+    },
+    {
+      "gc": 1,
+      "count": 1,
+      "items": [
+        {
+          "src": "/media/projects/french-manor/gallery-06.jpg",
+          "alt": "French Manor gallery 06",
+          "caption": [
+            "French Manor",
+            "06"
+          ]
+        }
+      ]
+    }
+  ],
+  "film": {
+    "src": "/media/projects/french-manor/film.mp4",
+    "poster": "/media/projects/french-manor/cover.jpg"
+  }
+}
